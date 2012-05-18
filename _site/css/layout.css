@@ -43,6 +43,7 @@ img {
 
 #header #logo {
   width: 100%;
+  margin-top: 20%;
 }
 #header #logo li {
   margin-right: 1.25em;
