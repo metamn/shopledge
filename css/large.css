@@ -1,0 +1,12 @@
+#index #shopify ul.inline-list li {
+  width: 15%;
+}
+#index #smuff table {
+  width: 60%;
+}
+
+
+#article, #archive #articles, #index #articles #items {
+  margin: 0 20%;
+}
+

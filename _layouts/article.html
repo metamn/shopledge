@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<div id="article">  
+  {% if page.images.size > 0 %}
+  <div id="image">
+    <img src="{{ page.images[0].url }}" title="{{ page.images[0].title }}" />
+  </div>
+  {% endif %}
+  
+  <div id="toc" class="hidden">
+    <h3>Table of Contents</h3>
+  </div>
+  
+  <div id="body">
+    {{ content }}
+  </div>
+  
+  <div id="meta">
+    <h3>Meta Information</h3>
+    <ul class="underlined">
+      <li>{{ page.date | date: "%h %d, %Y" }}</li>
+      {% if page.duration != _blank %}
+      <li>Project duration: {{ page.duration }} man-months</li>
+      {% endif %}        
+      {% if page.client != _blank %}
+      <li>Client: <a href="{{ page.client[0].url }}" title="{{ page.client[0].title }}">{{ page.client[0].title }}</a></li>
+      {% endif %}
+      {% if page.home != _blank %}
+      <li>Home page: <a href="{{ page.home }}" title="{{ page.home }}">{{ page.home }}</a></li>
+      {% endif %}
+      <li>{% include categories.html %}</li>
+    </ul>
+  </div>
+  
+  <div id="share" class="block">
+    {% include share.html %}
+  </div>
+  
+  <div id="similar" >
+    {% if page.similar.size > 0 %}
+      <h3>Theme Presets</h3>
+      {% for sim in page.similar %}
+        {% for p in site.posts %}     
+          {% if p.uid == sim %}
+            <div id="work">
+              <a href="{{ p.url }}" title="{{ p.title }}">
+                <img src="{{ p.images[0].url }}" title="{{ p.title }}" /></a>
+            </div>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    {% else %}
+      <h3>Similar Articles</h3>
+      <ul class="underlined">
+        {% for post in site.related_posts limit:5 %}
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            <span class="date">{{ post.date | date: "%h %d, %Y" }}</span>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+
+  
+  {% include comments.html %}
+  
+  
+</div>
+

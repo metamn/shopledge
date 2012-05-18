@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div id="archive">
+  <div id="articles">   
+    {% assign total = site.categories[page.category].size %} 
+    {% for p in site.categories[page.category] %}
+      {% include item.html %}
+    {% endfor %}
+  </div>
+  
+  {% include all_categories.html %}
+</div>

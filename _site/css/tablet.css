@@ -1,0 +1,18 @@
+#index #shopify ul.inline-list li {
+  width: 20%;
+}
+#index #smuff table {
+  width: 100%;
+}
+
+
+
+
+
+
+#footer #text {
+  height: 12.5em;
+}
+#footer table td img {
+  max-width: 60%;
+}

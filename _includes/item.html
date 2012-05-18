@@ -1,0 +1,23 @@
+<div id="item" class="item{{ forloop.index }} total{{ total }} {{ p.type }}">
+  <div id="title">
+    <h4>
+      <a class="text" href="{{ p.url }}" title="{{ p.title }}">{{ p.title }}</a>
+      <br/>
+      <span class="date">{{ p.date | date: "%h %d, %Y"}}</span>  
+    </h4>
+  </div>
+  {% unless p.type == 'post' %}
+    <div id="image">
+      <a href="{{ p.url }}" title="{{ p.title }}">
+        <img src="{{ p.images[0].url }}" title="{{ p.title }}" /></a>
+    </div>
+  {% else %}
+    <div id="excerpt">
+      {{ p.excerpt }}
+    </div>
+  {% endunless %}  
+  <div id="meta">
+    {% assign page = p %}
+    {% include categories.html %} 
+  </div>
+</div>  

@@ -1,0 +1,8 @@
+<div id="categories" class="block">
+  <h3>Browse all categories</h3>
+  <ul class="inline-list">
+    {% for c in site.all_categories %}
+      <li><a href="/categories/{{ c }}" title="{{ c }}">{{ c }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

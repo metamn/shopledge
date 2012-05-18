@@ -1,0 +1,41 @@
+.container, #header .inside #site-name, #header .inside #menu {
+  width: auto;  
+  float: none;
+}
+
+
+/* removing scrollbars */
+body.page #header, body.collection #header {
+  height: 8em !important;
+}
+#header .inside #site-name {
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+  margin-left: 19.6em;
+}
+#header .inside #menu {
+  margin-top: 14em !important;
+  position: absolute !important;
+  margin-left: 13.5em;
+}
+#header #menu li {
+  margin-right: .3em !important;
+  padding: .3em .3em 0 !important;
+  height: 4em !important;
+}
+
+/* moving up the logo on startpage */
+body.index #header {
+  height: 13em;
+}
+
+
+#item .tags {
+  margin-left: 33em !important;
+  width: auto !important;
+}
+
+#article .title {
+  width: 96% !important;
+}

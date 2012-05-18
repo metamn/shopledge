@@ -1,0 +1,30 @@
+/* Source: http://lamb.cc/typograph/ 
+Settings: Traditional, none, base=4  
+*/
+
+body { font-size:100%; line-height:1.25; }
+h1, h2, h3 { margin-top:0; margin-bottom:0; }
+h1 { font-size:1.55556em; padding:1.38415em 0; }
+h2 { font-size:1.33333em; padding:1.25em 0; }
+h3 { font-size:1.22222em; padding:1.42074em 0; }
+h4 { font-size:1.11111em; padding:1.62469em 0; }
+h5, h6 { font-size:1em; padding:1.25em 0; }
+
+h6 {
+  font-style: italic;
+}
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+
+body {   
+  font-size: 100%;
+  -webkit-text-size-adjust: none;  
+}
+
+p {
+  margin-bottom: 1.25em;
+}
+
+

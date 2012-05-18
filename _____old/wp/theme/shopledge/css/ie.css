@@ -1,0 +1,43 @@
+
+.container {  
+  width: 90%;  
+  margin: 0 auto;
+}
+.col-1 {
+  margin-right: 5%;
+  width: 35%;
+}
+.col-2 {
+  width: 50%;
+}
+
+
+
+#index #featured #item {
+  width: 100%;
+  margin: 0 0 5em 0;  
+}
+#index #featured #item img {
+  width: 99%;
+  height: auto;
+}
+#index #featured #item .col-2 {
+  margin: 0;
+  width: 20%;
+}
+#index #sale #item img {
+  width: auto;
+  height: auto;    
+}
+
+
+
+#collection #items #item img {
+  width: 90%;
+  height: auto; 
+}
+#collection #items #item .col-2 img {
+  width: 80px;
+  height: 80px;
+}
+

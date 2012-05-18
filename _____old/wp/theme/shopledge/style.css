@@ -1,0 +1,211 @@
+/*
+Theme Name:     Shopledge
+Theme URI:      www.shopledge.com
+Description:    A simple portfolio theme
+Author:         cs
+Author URI:     www.shopledge.com
+Version:        0.1.0
+*/
+
+
+
+
+/* Header
+*/
+
+
+h1.logo {
+  font-family: none;
+  padding-bottom: 0;
+}
+.site-description {
+  padding: 0;
+}
+#header #menu {
+  padding-top: .62em;
+  margin-bottom: 1.25em;
+}
+#header #menu li {
+  margin-right: .63em;
+  padding: .62em .62em 0;
+}
+#header #menu li.page-item-43 {
+  margin-right: 0;
+}
+
+
+
+body.page #header, body.collection #header {
+  height: 10em;
+}
+#header .inside #logo, #header .inside #site-name, #header .inside #menu {
+  position: relative;
+  float:left;
+}
+#header .inside #site-name {
+  top: -7em;
+  left: -10em;
+}
+#header .inside #menu {
+  top: -10em;
+  left: 6em;
+  height: 1em;
+}
+
+
+/* Page
+*/
+
+#article {
+  text-align: left;
+}
+
+
+/* Single 
+*/
+
+
+#article.post .body {
+  text-align: left;
+}
+#article.post .body img {
+  width: 100%;
+  height: auto;
+  margin: 1.25em 0;
+}
+#article #aside #toc ul {
+  margin-left: .31em;
+}
+#article #aside #toc ul li {
+  margin-bottom: .62em;
+}
+#article .share, #article #aside #similar, #article #aside #toc {
+  margin: 2.5em 0 1.25em;
+}
+
+.tags, #navigation, #aside {
+  font-size: small;
+}
+
+#article .body .wp-caption a {
+  background: none;
+  border: none;
+  padding: none;  
+}
+#article .body .wp-caption img {
+  margin-bottom: 0;
+}
+#article .body .wp-caption-text {
+  font-size: smaller;
+  font-style: italic;
+  text-align: right;
+}
+
+
+/* Sidebar
+*/
+
+#sidebar {
+  margin: 1.5em 0;
+}
+#sidebar #search input[type="submit"], #comments #respond .form-submit input {  
+  border: none;
+  padding: .32em;
+}
+#sidebar #search label {
+  display: none;
+}
+#sidebar #contact img {
+  width: 64px;
+  height: 64px;
+}
+#sidebar #comments {
+  display: none;
+}
+#sidebar.show-comments #comments {
+  display: block;
+}
+
+
+
+/* Comments
+*/
+
+#comments {
+  text-align: left;
+}
+#comments img.avatar {
+  width: 40px;
+  height: 40px;
+}
+
+
+
+/* Index
+*/
+
+#items {
+  text-align: left;
+}
+#items #item {
+  margin-bottom: 5em;
+}
+#items #item.category-news {
+  margin: 2.5em 0 7.5em;
+}
+#items #item .meta, #items #item .title, #items #item .image {
+  float: left;
+}
+
+/* Portfolio items */
+.page #items #item .image img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+/* Common 
+*/
+
+.link {
+  cursor: pointer;
+}
+.clear {
+  clear: both;
+}
+.block {
+  width: 100%;
+  float: left;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.hidden {
+  display: none;
+}
+.alignright {
+  text-align: right;
+}
+.alignleft {
+  text-align: left;
+}
+.aligncenter {
+  text-align: center;
+}
+
+ul.inline-list {
+  display: block;
+  margin: 0;
+}
+ul.inline-list li {
+  display: inline;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowarp;  
+}
+

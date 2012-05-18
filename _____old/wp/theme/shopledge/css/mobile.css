@@ -1,0 +1,124 @@
+body {
+  background: #E8E8D9 !important;
+}
+.container {
+  margin: 0 .61em;
+}
+.container, #header .inside #site-name, #header .inside #menu,
+#article .col-1, #article .col-2 {
+  width: auto;  
+  float: none;
+}
+
+/* moving up the logo on startpage */
+body.index #header {
+  height: 13em;
+}
+
+
+/* removing scrollbars */
+body.page #header, body.collection #header {
+  height: 8em !important;
+}
+#header .inside #site-name {
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+  margin-left: 6em;
+}
+#header .inside #menu {
+  margin-top: 14em !important;
+  position: absolute !important;
+}
+#header #menu li {
+  margin-right: .3em !important;
+  padding: .3em .3em 0 !important;
+  height: 4em !important;
+}
+#content {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+/* add padding to content and still keeping scrollbars invisible */
+#content {  
+  padding: 0 !important;
+}
+#article, #sidebar {
+  margin-left: 0 !important; 
+  padding: 1.52em .61em !important;
+}
+
+
+/* listing posts */
+#item {
+  background: #d5d5b9;
+}
+#item .meta, #item .title, #item .image, #item .tags {  
+  width: auto !important;
+  float: left;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+#item .image img, #article .body img {
+  width: 100% !important; /* 94% */
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  /*border: .61em solid rgba(213, 213, 185, 1) !important;*/
+  border: none !important;
+}
+#item .title, #item .meta, #item .tags {
+  position: relative;
+  top: -.3em;
+}
+.tags ul {
+  display: block;
+  margin: .61em 0 0;
+}
+.tags ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 0 .61em 0;
+  white-space: nowarp;  
+}
+
+
+/* single */
+
+#article .tags li {
+  margin-right: .61em !important;
+}
+#article .title {
+  width: 94% !important;
+  margin-top: .61em !important;
+}
+#article .share {
+  display: none;
+}
+
+
+#sidebar #contact img {
+  width: 48px !important;
+  height: 48px !important;
+}
+#sidebar #search input[type="text"] {
+  width: 53%;
+  margin-right: 3%;
+}
+#sidebar #search input[type="submit"] {
+  width: 30%;
+}
+#sidebar #archives, #sidebar .panes {
+  display: none;
+}
+
+#likes #item .image {
+  width: 30% !important;
+  margin-right: 5% !important;
+}
+#likes #item .text {
+  width: 60% !important;
+}

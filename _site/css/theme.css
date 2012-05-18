@@ -1,0 +1,95 @@
+/* http://www.codestyle.org/servlets/FontStack?stack=Cambria,Hoefler+Text,Utopia,Liberation+Serif,Nimbus+Roman+No9+L,Times,Times+New+Roman&generic=serif */
+body {
+  font-family: Cambria,
+             "Hoefler Text",
+             Utopia,
+             "Liberation Serif",
+             "Nimbus Roman No9 L",
+             Times,
+             "Times New Roman",
+             serif;
+  color: #222;
+}
+
+
+
+/* Colors 
+
+- text: #222;
+  - gray: #666; 
+  - lightgray: #f1f1f1
+- logo: red;
+- link: blue;
+
+*/
+
+
+
+/* Links */
+
+a, a:active {
+  color: blue;  
+  text-decoration: none;
+}
+a:visited {
+  color: navy;
+}
+a.normal, a.normal:active {
+  color: blue !important;
+}
+a.normal:visited {
+  color: navy !important;
+}
+a.text, a.text:active, a.text:visited {
+  color: #222 !important;
+}
+a.text:hover {
+  color: navy !important;
+}
+
+
+
+/* Header */
+
+#header a, #header a:visited {
+  color: #222;
+}
+
+#header .logo {
+  background: red;
+}
+
+
+/* Archives */
+
+#archive #item #excerpt {
+  border-color: #f1f1f1;
+}
+
+
+
+/* Footer */
+
+#footer a, #footer a:visited {
+  color: #222;
+}
+
+
+
+
+/* Common */
+
+.gray {
+  color: #666;
+}
+
+ul.underlined li {
+  border-color: #f1f1f1; 
+}
+hr {
+  border: 0;
+  background-color: #f1f1f1;
+  height: 1px;
+}
+
+

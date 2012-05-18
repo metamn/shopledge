@@ -1,0 +1,31 @@
+How it works:
+- all collections looks the same (index, search, tags, categories, archives, etc)
+- on tag or category archive you can insert additional content by creating a page name with the title of the tag or category
+  Ex.: '/category/portfolio' looks for a page named 'portfolio' and displays its content before listing all posts belonging to
+the 'portfolio' category. 
+
+Fonts:
+- there are the following classes for custom fonts:
+  .logo
+  .site-name
+  .site-description
+  .menu
+  .page-title
+  .post-title
+  
+
+Settings:
+- Media: 
+  - thumbnail: 100x100
+  - medium: 350x
+  - large: 1024x
+
+Remove the following files from Twenty Ten:
+- 404.php
+- archive.php
+- author.php
+- category.php
+- search.php
+- tag.php
+
+

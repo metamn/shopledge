@@ -1,0 +1,137 @@
+---
+layout: default
+---
+
+#index 
+  #intro
+    We are a small team who does uttermost designs for websites, especially for e-commerce. 
+    %br
+    Yes, we are running our own webshops since 2006, and we we have created a few other ones for great people and companies too.
+  #shopify
+    #intro
+              
+    {% for work in site.categories.featured %}
+    %div.work
+      #title        
+        %h4
+          %a{:href => "{{ work.url }}", :title =>  "Read more about {{ work.title }}" } {{ work.title }}
+          %span.date
+            {{ work.date | date: "%h %Y" }}
+      #image
+        %ul.inline-list
+          %li 
+            %a{:href => "{{ work.home }}", :title =>  "View live at {{ work.home }}" } 
+              %img{:src => "{{ work.images[0].url }}", :alt => "{{ work.title }}", :title => "View live at {{ work.home }}" }
+          {% if work.similar != _blank %} 
+            {% for sim in work.similar %}
+              {% assign i = forloop.index %}
+              {% for p in site.posts %}     
+                {% if p.uid == sim %}          
+          %li{:class => "img{{ i }} desktop" }
+            %a{:href => "{{ p.home }}", :title =>  "View live at {{ p.home }}" }
+              %img{:src => "{{ p.images[0].url }}", :alt => "{{ p.title }}", :title => "View live at {{ p.home }}" }
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
+          {% endif %}        
+    {% endfor %}
+ 
+  #smuff
+    #intro
+      %h3
+        We are running our own store since 2006 on a platform developed by us.
+    {% for work in site.categories.smuff limit:1 %}
+    %center  
+      %table
+        %tr
+          %td{:class => "image desktop"}
+            %a{:href => "http://smuff.ro", :alt => "Smuff &mdash; magazin online gadget & gizmo", :title => "Smuff &mdash; magazin online gadget & gizmo" }
+              %img{:src => "{{ work.images[0].url }}", :alt => "Smuff &mdash; magazin online gadget & gizmo", :title => "Smuff &mdash; magazin online gadget & gizmo" }
+          %td.text
+            %img{:class => "mobile", :src => "{{ work.images[0].url }}", :alt => "{{ work.title }}", :title => "{{ work.title }}" }
+            %p
+              Smuff is a premium gadget & gizmo store operated by our team.
+              %br
+              This is where we learnt how to create and manage a store.
+            %p.gray
+              * * *
+            %p
+              Over the years we've learnt about acquiring and dealing with customers, making them happy, etc etc... 
+            %p.gray
+              * * * 
+            %p  
+              Also we've learned which is the best currently available technology to run your store. For quotes don't
+              hesitate to contact us.
+    {% endfor %}
+      
+  #articles
+    #intro
+      %h3
+        We share knowledge on creating and running successful e-commerce sites.
+    #items
+      #posts 
+        %h4
+          Articles
+        %ul.underlined
+          {% for work in site.categories.articles limit: 8 %}    
+          %li
+            %a{:href => "{{ work.url }}", :title =>  "{{ work.title }}" } {{ work.title }}   
+            %span.date
+              {{ work.date | date: "%h %Y" }}
+          {% endfor %} 
+      #tweets
+        %h4
+          News
+        %ul
+          
+:javascript
+  // Get latest tweets
+  var counter = 0;
+  var BreakException= {};
+  
+  var month_names = new Array ( );
+  month_names[month_names.length] = "January";
+  month_names[month_names.length] = "February";
+  month_names[month_names.length] = "March";
+  month_names[month_names.length] = "April";
+  month_names[month_names.length] = "May";
+  month_names[month_names.length] = "June";
+  month_names[month_names.length] = "July";
+  month_names[month_names.length] = "August";
+  month_names[month_names.length] = "September";
+  month_names[month_names.length] = "October";
+  month_names[month_names.length] = "November";
+  month_names[month_names.length] = "December";
+
+  var day_names = new Array ( );
+  day_names[day_names.length] = "Sunday";
+  day_names[day_names.length] = "Monday";
+  day_names[day_names.length] = "Tuesday";
+  day_names[day_names.length] = "Wednesday";
+  day_names[day_names.length] = "Thursday";
+  day_names[day_names.length] = "Friday";
+  day_names[day_names.length] = "Saturday";
+
+  
+  try {
+    jQuery.getJSON('http://twitter.com/statuses/user_timeline.json?screen_name=shopledge&callback=?',function(data){    
+    if (data) {                      
+      data.forEach(function(datum) {  
+        var str = '<li>';
+        
+        var entryDate = new Date(datum.created_at);
+        var pubDate = day_names[entryDate.getDay()] + ", " + month_names[entryDate.getMonth()] + " " + entryDate.getDate();
+        str += datum.text + '<hr/><span class="gray"><span class="date"> &mdash; ' + pubDate + '</span></span>';
+        
+        str += '</li>';
+        jQuery('#tweets ul').append(str);
+        
+        counter++;
+        if(counter === 3) throw BreakException;               
+      });
+    }
+  });
+  } catch(e) {
+      if (e!==BreakException) throw e;
+  }             
+  

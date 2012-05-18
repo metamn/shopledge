@@ -1,0 +1,250 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mobile {
+  display: none;
+}
+.desktop {
+  display: block;
+}
+
+
+/* Stranded, em */
+body { font-size:100%; line-height:1.25; }
+h1, h2, h3 { margin-top:0; margin-bottom:0; }
+h1 { font-size:3.23077em; padding:1.30935em 0; }
+h2 { font-size:2.61538em; padding:1.28666em 0; }
+h3 { font-size:2em; padding:1.25em 0; }
+h4 { font-size:1.61538em; padding:1.30936em 0; }
+
+h3 + h4 {
+  padding-top: 0;
+}
+
+#item #title h4 {
+  font-size: 1.25em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
+/* Header  */
+
+
+
+#header #logo {
+  width: 100%;
+}
+#header #logo li {
+  margin-right: 1.25em;
+}
+#header li.logo {  
+  height: 5em;
+  width: 5em;
+  font-family: none;  
+}
+#header li.logo span {
+  font-size: 1em;
+  position: relative;
+  top: .7em;
+  right: .2em;
+}
+
+
+
+
+/* Frontpage  */
+
+#content #title h1 {
+  padding-top: 0;
+}
+
+#index .work, #index #shopify, #index #smuff, #index #intro {
+  margin-bottom: 2.5em;
+}
+#index .date {
+  margin-left: .625em;
+}
+#index #shopify ul.inline-list li {
+  margin-right: 5%;
+}
+#index #shopify ul.inline-list li.img2 {
+  margin-right: 0;
+}
+
+#index #smuff table {
+  margin-bottom: 0;
+}
+#index #smuff table td {
+  text-align: center;
+}
+#index #smuff .text {
+  font-size: large;
+}
+
+#index #articles #intro {
+  margin-bottom: 0;
+}
+
+#index #articles #items > div {
+  width: 45%;
+  float: left;
+}
+#index #articles #posts {
+  margin-right: 10%;
+}
+#index #articles #tweets li {
+  text-align: left;
+}
+
+
+
+
+/* Articles */
+
+#article {
+  text-align: left;
+}
+#article #image {
+  margin-bottom: 2.5em;
+  text-align: center;
+}
+
+#article #toc {
+  margin-bottom: 2.5em;
+  text-align: center;
+}
+#article #toc ul {
+  margin-left: 0;
+}
+#article #toc h3 {
+  padding-top: 0;
+}
+
+
+#article #body p {
+  text-align: justify;
+}
+
+#article #similar ul {
+  margin-left: 0;
+  width: 70%;
+}
+#article #similar #work {
+  width: 30%;
+  float: left;
+  margin-right: 5%;
+}
+
+#article #share table {
+  width: 30%;
+  margin-bottom: 0;
+}
+#article #share table td {
+  padding: 1.25em 0;
+}
+
+
+
+
+/* Archives */
+
+
+#archive #item {
+  width: 25%;
+  margin-right: 12.5%;
+  float: left;
+  height: 27.5em;
+  margin-bottom: 2.5em;  
+}
+#archive .item3, #archive .item6, #archive .item9, #archive .item12, #archive .item15,
+#archive .item18, #archive .item21 {
+  margin-right: 0 !important;
+}
+#archive #item.total1 {
+  margin: 0 37.5%;
+}
+#archive #item.total2 {
+  margin: 0 12%;
+}
+#archive #item #title {
+  height: 7em;
+}
+#archive #item #image {
+  max-height: 18em;
+  overflow: hidden;
+}
+#archive #item #excerpt {
+  border-bottom: 1px solid;
+  padding-bottom: .625em;
+}
+#archive #item #meta {
+  padding-top: .625em;
+}
+
+#archive #item.post {
+  height: 22.5em;
+}
+
+
+
+/* Footer  */
+
+
+#footer {
+  margin: 2.5em 0;
+}
+#footer #text {
+  text-align: center;
+  height: 10em;
+}
+#footer table td {
+  vertical-align: middle;
+  padding: 0;
+  cursor: pointer;
+}
+#footer #contact {
+  text-align: center;
+}
+#contact li {
+  margin-right: .625em;
+}
+#contact li.hidden {
+  display: none;
+}
+#contact li.contact {
+  position: relative;
+  top: -.625em;
+}
+
+
+
+/* Common */
+
+ul.underlined, #article #info ul, #index #tweets ul {
+  list-style-type: none;
+}
+ul.underlined li, #article #info ul li {
+  border-bottom: 1px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,84 @@
+/*
+Grid basics: http://www.alistapart.com/articles/fluidgrids/
+
+1. Establish the screen width
+2. Detect golden ratios
+3. Build the elements upon it _always_ aligned to the top-left of the grid
+3.1. this means always the left aligned element must include a right margin
+
+*/
+
+
+.container {
+  width: 45%;
+  max-width: 40em;  /* 1. 40x16=640px */
+  margin: 0 auto;
+}
+
+#portfolio-images .container {
+  width: 80%;
+  max-width: 80em;
+  margin: 0 auto;
+}
+#portfolio-images #item-thumbs {
+  float: left;
+}
+
+
+
+#items #item .title {
+  margin-top: 10%;
+}
+.page #items #item .title {
+  margin-top: 1%;
+}
+.collection #items #item .image {
+  width: 31.25%;
+  height: 31.25%;
+}
+#items #item .title, #items #item .meta, #items #item .tags {
+  width: 50.15%; /*65.75*/
+  margin-left: 13%;
+}
+#items #item .noimage .meta {
+  width: 31.25%;
+  margin-left: 0;
+}
+#items #item .tags {
+  margin-left: 430px;
+}
+#items #item .tags a {
+  margin-left: 10px;
+}
+
+#sidebar #search input[type="text"] {
+  width: 63%;
+  margin-right: 3%;
+}
+#sidebar #search input[type="submit"] {
+  width: 30%;
+}
+
+#navigation .col-1, #navigation .col-2 {
+  width: 45%;
+}
+#navigation .col-1 {
+  margin-right: 2.5%;
+}
+#navigation .col-2 {
+  margin-left: 2.5%;
+}
+
+#article .col-1 {
+  width: 20%;
+  margin-right: 5%;
+}
+#article .col-2 {
+  width: 70%;
+}
+
+
+
+#comments {
+  width: 70%;
+}

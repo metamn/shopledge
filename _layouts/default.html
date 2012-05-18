@@ -1,0 +1,43 @@
+---
+---
+<html>
+  <head>
+    <title>
+      {% if page.title != _blank %}
+        {{ page.title }}
+      {% else %}
+        {{ site.name }}
+      {% endif %}
+    </title>
+    <link href="/css/base.css" media="all" type="text/css" rel="stylesheet">
+    <link href="/css/layout.css" media="all" type="text/css" rel="stylesheet">
+    <link href="/css/theme.css" media="all" type="text/css" rel="stylesheet">
+    
+    <link href="/css/mobile.css" charset="utf-8" media="screen and (max-width: 480px)" rel="stylesheet" type="text/css" />
+    <link href="/css/tablet.css" charset="utf-8" media="screen and (min-width: 481px) and (max-width: 1024px)" rel="stylesheet" type="text/css" />
+	  <link href="/css/wide.css" charset="utf-8" media="screen and (min-width: 1025px) and (max-width: 1399px)" rel="stylesheet" type="text/css" />
+    <link href="/css/large.css" charset="utf-8" media="screen and (min-width: 1400px)" rel="stylesheet" type="text/css" />        
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.init.js"></script>
+  </head>
+  
+  <body>
+    {% include header.html %}
+    <div id="content" class="block">
+      <div class="container">
+        <div id="title">
+          <h1>
+          {% if page.title != _blank %}
+            {{ page.title }}
+          {% else %}
+            {{ site.strapline }}
+          {% endif %}
+          </h1>
+        </div>
+        {{ content }}
+      </div>
+    </div>    
+    {% include footer.html %}
+  </body>
+</html>
