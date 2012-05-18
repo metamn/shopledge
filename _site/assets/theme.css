@@ -49,47 +49,22 @@ a.text:hover {
 
 
 
-/* Header */
+/* Header 
+*/
 
 #header a, #header a:visited {
   color: #222;
 }
 
-#header .logo {
+#header #image {
   background: red;
 }
 
 
-/* Archives */
 
-#archive #item #excerpt {
-  border-color: #f1f1f1;
+/* Common
+*/
+
+.box {
+  background: #f1f1f1;
 }
-
-
-
-/* Footer */
-
-#footer a, #footer a:visited {
-  color: #222;
-}
-
-
-
-
-/* Common */
-
-.gray {
-  color: #666;
-}
-
-ul.underlined li {
-  border-color: #f1f1f1; 
-}
-hr {
-  border: 0;
-  background-color: #f1f1f1;
-  height: 1px;
-}
-
-

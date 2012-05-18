@@ -20,16 +20,7 @@ layout: default
   <div id="meta">
     <h3>Meta Information</h3>
     <ul class="underlined">
-      <li>{{ page.date | date: "%h %d, %Y" }}</li>
-      {% if page.duration != _blank %}
-      <li>Project duration: {{ page.duration }} man-months</li>
-      {% endif %}        
-      {% if page.client != _blank %}
-      <li>Client: <a href="{{ page.client[0].url }}" title="{{ page.client[0].title }}">{{ page.client[0].title }}</a></li>
-      {% endif %}
-      {% if page.home != _blank %}
-      <li>Home page: <a href="{{ page.home }}" title="{{ page.home }}">{{ page.home }}</a></li>
-      {% endif %}
+      <li>{{ page.date | date: "%h %d, %Y" }}</li>      
       <li>{% include categories.html %}</li>
     </ul>
   </div>

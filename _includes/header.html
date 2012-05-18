@@ -1,18 +1,32 @@
-<div id="header" class="block">
-  <div class="container">
-    
-    <div id="logo" class="block">
-      <ul id="logo" class="inline-list">
-        <li class="logo">
-          <span>
+<header id="header">  
+  <hgroup id="logo">
+    <ul class="inline-list">
+    <li id="image"><a href="/"><span>
             &nbsp;&nbsp;&nbsp;___&nbsp;/\ <br/>
             \__/ <br/>
             &nbsp;*&nbsp;*
-          </span>
-        </li>
-        <li class="sitename"><h3><a href="/" alt="{{ site.name}}" title="Homepage for {{ site.name }}">{{ site.name }}</a></h3></li>
-      </ul> 
-    </div>
+          </span></a>
+    </li>
+    <li id="title"><a href="/"><h1>{{ site.title }}</h1></a></li>
+    <li id="strapline"><a href="/despre-noi"><h2>{{ site.strapline }}</h2></a></li>
+  </hgroup>
+  
+  <div id="intro" class="box">
+    <p>
+      Are you running a small or medium e-commerce site?
+    </p>
     
+    <p>
+      We help you to grow sales and keep your costs low.
+    </p>
   </div>
-</div>
+  
+  <div id="about" class="box">
+    <p>
+      We are running our e-commerce site since 2007.
+    </p>
+    <p>
+      We stay ahead of competion and make more profit with less efforts.
+    </p>
+  </div>
+</header>

@@ -1,53 +1,65 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>
-      
-        The Easiest Way To Blog
-      
-    </title>
-    <link href="/css/base.css" media="all" type="text/css" rel="stylesheet">
-    <link href="/css/layout.css" media="all" type="text/css" rel="stylesheet">
-    <link href="/css/theme.css" media="all" type="text/css" rel="stylesheet">
+    <meta charset="utf-8" />  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
     
-    <link href="/css/mobile.css" charset="utf-8" media="screen and (max-width: 480px)" rel="stylesheet" type="text/css" />
-    <link href="/css/tablet.css" charset="utf-8" media="screen and (min-width: 481px) and (max-width: 1024px)" rel="stylesheet" type="text/css" />
-	  <link href="/css/wide.css" charset="utf-8" media="screen and (min-width: 1025px) and (max-width: 1399px)" rel="stylesheet" type="text/css" />
-    <link href="/css/large.css" charset="utf-8" media="screen and (min-width: 1400px)" rel="stylesheet" type="text/css" />        
+    <title>The Easiest Way To Blog</title> 
     
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-    <script type="text/javascript" src="/js/jquery.init.js"></script>
+    <link href="/assets/base.css" rel="stylesheet">
+    <link href="/assets/layout.css" rel="stylesheet">
+    <link href="/assets/theme.css" rel="stylesheet">  
+    
+    <link rel="stylesheet" href="/assets/mobile.css" media="screen and (max-width: 640px)" />
+    <!--
+    <link rel="stylesheet" href="/assets/tablet.css" media="screen and (min-width: 641px) and (max-width: 1024px)" />
+    <link rel="stylesheet" href="/assets/wide.css" media="screen and (min-width: 1025px) and (max-width: 1399px)" /> 
+    <link rel="stylesheet" href="/assets/large.css" media="screen and (min-width: 1400px)" />  
+    -->
+    <link rel="stylesheet" href="/assets/portrait.css" media="all and (orientation:portrait)" />    
+    <script type="text/javascript" src="/assets/modernizr.custom.50763.js"></script>
   </head>
+
   
-  <body>
-    <div id="header" class="block">
+
+<body class="/2011/01/12/the-easiest-way-to-blog">  
   <div class="container">
-    
-    <div id="logo" class="block">
-      <ul id="logo" class="inline-list">
-        <li class="logo">
-          <span>
+    <header id="header">  
+  <hgroup id="logo">
+    <ul class="inline-list">
+    <li id="image"><a href="/"><span>
             &nbsp;&nbsp;&nbsp;___&nbsp;/\ <br/>
             \__/ <br/>
             &nbsp;*&nbsp;*
-          </span>
-        </li>
-        <li class="sitename"><h3><a href="/" alt="Shopledge" title="Homepage for Shopledge">Shopledge</a></h3></li>
-      </ul> 
-    </div>
+          </span></a>
+    </li>
+    <li id="title"><a href="/"><h1>Shopledge</h1></a></li>
+    <li id="strapline"><a href="/despre-noi"><h2>your e-commerce source of knowledge</h2></a></li>
+  </hgroup>
+  
+  <div id="intro" class="box">
+    <p>
+      Are you running a small or medium e-commerce site?
+    </p>
     
+    <p>
+      We help you to grow sales and keep your costs low.
+    </p>
   </div>
-</div>
-
-    <div id="content" class="block">
-      <div class="container">
-        <div id="title">
-          <h1>
-          
-            The Easiest Way To Blog
-          
-          </h1>
-        </div>
-        <div id="article">  
+  
+  <div id="about" class="box">
+    <p>
+      We are running our e-commerce site since 2007.
+    </p>
+    <p>
+      We stay ahead of competion and make more profit with less efforts.
+    </p>
+  </div>
+</header>
+   
+        
+    <div id="content">
+      <div id="article">  
   
   <div id="image">
     <img src="jekyll.png" title="Jekyll, The Static Site Generator" />
@@ -211,30 +223,13 @@
   <div id="meta">
     <h3>Meta Information</h3>
     <ul class="underlined">
-      <li>Jan 12, 2011</li>
-              
-      
-      
-      <li>Posted in
-
-  <a href="/categories/articles/">articles</a> 
-
-</li>
+      <li>Jan 12, 2011</li>      
+      <li>Included file 'categories.html' not found in _includes directory</li>
     </ul>
   </div>
   
   <div id="share" class="block">
-    <table>
-  <tr>
-    <td class="twitter">
-      <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>          
-    </td>
-    <td class="facebook">
-      <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like layout="button_count" show_faces="true" width="150"></fb:like>              
-    </td>
-  </tr>
-</table>
-
+    Included file 'share.html' not found in _includes directory
   </div>
   
   <div id="similar" >
@@ -272,54 +267,24 @@
   </div>
 
   
-  <div id="comments" class="block">
-  <h3>Comments</h3>
-  <div id="disqus_thread" class="pane"></div>
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'shopledgedev'; // required: replace example with your forum shortname
-
-        // The following are highly recommended additional parameters. Remove the slashes in front to use.
-        var disqus_identifier = '/2011/01/12/the-easiest-way-to-blog';
-        var disqus_url = '' + '/2011/01/12/the-easiest-way-to-blog';
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-</div>
-
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'shopledgedev'; // required: replace example with your forum shortname
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-</script>
-
+  Included file 'comments.html' not found in _includes directory
   
   
 </div>
 
 
-      </div>
-    </div>    
-    <div id="footer" class="block">
-  
-</div>
+    </div> 
+    
+    <footer>
+</footer>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/jquery.init.js"></script>
 
 
 
 
-  </body>
+  </div>
+</body>
 </html>
