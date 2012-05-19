@@ -1,7 +1,5 @@
 ---
-uid: 201105211
 layout: article
-type: post
 title: Starting up
 categories:
   - articles

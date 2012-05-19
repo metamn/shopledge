@@ -61,6 +61,10 @@ a.text:hover {
   background: red;
 }
 
+.learn #header, .article #header,
+.learn h1 {
+  background: white;
+}
 
 
 /* Common
