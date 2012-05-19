@@ -105,35 +105,34 @@ img {
   display: none;
 } 
 
-.learn #header, .article #header {
+.page #header, .article #header {
   position: fixed;
   z-index: 1;
   height: 7.5em;
 }
-.learn #content, .article #content {
+.page #content, .article #content {
   position: relative;
   margin-top: 7.5em;
 }
 
 
-/* Learn aka. Article index
-*/
-
-.learn #header #articles {
-  display: none;
-}
-
-.learn h1 {
+.page h1 {
   position: fixed;
   right: 5%;
   z-index: 2;
   width: 25%;
 }
-.learn ul {
+.page ul {
   list-style: none;
   margin: 0;
   width: 65%;
   margin-right: 5%;
 }
 
+
+
+.learn #header #articles,
+.contact #header #contact {
+  display: none;
+}
 
