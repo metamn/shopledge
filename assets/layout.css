@@ -89,6 +89,12 @@ img {
   padding: 2.5em;
   border-radius: 10em;
 }
+.startpage .box p {
+  padding-top: 2.5em;
+}
+.startpage .box ul {
+  list-style: none;
+}
 
 
 
