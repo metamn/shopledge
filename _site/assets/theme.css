@@ -52,7 +52,8 @@ a.text:hover {
 /* Header 
 */
 
-#header a, #header a:visited {
+#header a, #header a:visited,
+.learn a, .learn a:visited {
   color: #222;
 }
 

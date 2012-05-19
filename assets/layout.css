@@ -32,12 +32,17 @@ img {
 
 
 
-/* Header  
+/* Startpage & header
 */
 
+.startpage #header #title, .startpage #header #strapline,
+.startpage #intro, .startpage #about {
+  display: inline-block;
+} 
 
-#header {
+.startpage #header {
   text-align: center;
+  margin-top: 50%;
 }
 
 #header #image {  
@@ -45,6 +50,7 @@ img {
   width: 5em;
   font-family: none; 
   margin-right: 1.25em;
+  text-align: center;
 }
 #header #image span {
   font-size: 1em;
@@ -53,22 +59,13 @@ img {
   right: .2em;
 }
 
-
-#header #strapline {
+.startpege #header #strapline {
   width: 100%;
 }
-#header #strapline h2 {
+.startpage header #strapline h2 {
   padding-top: 0;
 }
 
-.startpage #header {
-  margin-top: 50%;
-}
-
-
-
-/* Startpage
-*/
 
 
 .startpage #intro {
@@ -97,5 +94,16 @@ img {
 }
 
 
+/* Page
+*/
 
+#header #title, #header #strapline,
+#intro, #about {
+  display: none;
+} 
+
+.learn ul {
+  list-style: none;
+  margin: 0;
+}
 

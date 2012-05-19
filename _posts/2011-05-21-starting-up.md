@@ -13,7 +13,7 @@ links:
 images:
   # 0
   - title: My Delicious Bookmarks
-    url: /images/delicious.png 
+    url: /assets/arrow1.png 
 people:
   # 0
   - name: Veerle Pieters

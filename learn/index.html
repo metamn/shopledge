@@ -1,0 +1,19 @@
+---
+layout: default
+id: learn
+title: Learn e-commerce the easy way
+---
+
+<h1>{{ page.title }}</h1>
+
+<ul>
+{% for post in site.posts %}
+  <li>
+    <a title="Click to read {{ post.title }}" href="{{ post.url }}">
+      <h2>{{ post.title }}</h2>
+      <img title="{{ post.images[0].title }}" src="{{ post.images[0].url }}" />
+      <p>{{ post.excerpt }}</p>
+    </a>
+  </li>
+{% endfor %}
+</ul>
