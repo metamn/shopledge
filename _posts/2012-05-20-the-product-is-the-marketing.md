@@ -60,7 +60,7 @@ digital trends and their impact on marketing we have a following summary from
 1. **Discovering needs** using social networks and data mining tools.
 2. **Aggregating and curating** content related to these topics. 
 3. **Creating original content** and making it vendible.
-4. **Distribute content** on channels where consumers are able to **engage** with.
+4. **Distributing content** on channels where consumers are able to **engage** with.
  
 {% include the-product-is-the-marketing.html %}
 

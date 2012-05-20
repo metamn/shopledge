@@ -157,7 +157,8 @@ strong, blockquote em {
 
 
 .learn #header #articles,
-.contact #header #contact {
+.contact #header #contact,
+.how #header #how {
   display: none;
 }
 
