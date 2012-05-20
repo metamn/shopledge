@@ -11,6 +11,10 @@
 }
 
 
+/* Typography
+*/
+
+
 /* Stranded, em */
 body { font-size:100%; line-height:1.25; }
 h1, h2, h3 { margin-top:0; margin-bottom:0; }
@@ -28,7 +32,27 @@ img {
   height: auto;
 }
 
+blockquote {
+  border-left: 1px dotted;
+  display: block;
+  font-size: larger;
+  font-style: italic;
+  margin: 1.25em;
+  padding-left: 1.25em;
+}
 
+strong, blockquote em {
+  font-weight: bold;
+}
+
+
+
+/* Infographics
+*/
+
+#infogr {
+  margin: 5em 0;
+}
 
 
 
@@ -125,10 +149,11 @@ img {
 .page ul {
   list-style: none;
   margin: 0;
-  width: 65%;
-  margin-right: 5%;
 }
-
+#article, .page ul {
+  width: 65%;
+  margin-right: 5%;  
+}
 
 
 .learn #header #articles,
@@ -136,3 +161,11 @@ img {
   display: none;
 }
 
+
+
+/* Article
+*/
+
+#article {
+  margin-bottom: 5em;
+}
