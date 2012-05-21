@@ -25,6 +25,25 @@ body {
 
 
 
+/* Infographics
+*/
+
+#infogr .action, #infogr .result {
+  padding: 1.25em 0;
+  font-size: larger;  
+  text-align: center;
+}
+#infogr .action {
+  background: white;
+  border: 1px solid #f1f1f1;  
+}
+#infogr .result {
+  background: #f1f1f1;
+  border: 1px solid #222;
+}
+
+
+
 /* Links */
 
 a, a:active {

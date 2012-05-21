@@ -55,6 +55,47 @@ strong, blockquote em {
 }
 
 
+/* The Product is the Marketing */
+.article1 .social-networks li {
+  width: 20%;
+  margin-right: 5%;
+  text-align: center;
+}
+.article1 .social-networks li.last {
+  margin-right: 0;
+}
+
+.article1 #idea {
+  position: relative;
+  top: -12.5em;
+}
+.article1 #buzz, .article1 #create-arrows {
+  position: relative;
+  top: -5em;
+}
+
+.article1 .create li {
+  width: 45%;
+  margin-right: 5%;
+  text-align: center;
+}
+.article1 .create li.last {
+  margin-right: 0;
+}
+.article1 #fulfill {
+    position: relative;
+    top: -17.5em;
+}
+.article1 #create {
+  position: relative;
+  top: -5.5em;
+}
+.article1 #distribute, .article1 #distribute-a, .article1 #distribute-i {
+  position: relative;
+  top: -3.75em;
+}
+
+
 
 /* Startpage & header
 */
