@@ -86,15 +86,18 @@ strong, blockquote em {
     position: relative;
     top: -17.5em;
 }
-.article1 #create {
+.article1 #create, .article1 #distribute-a {
   position: relative;
   top: -5.5em;
 }
-.article1 #distribute, .article1 #distribute-a, .article1 #distribute-i {
+.article1 #distribute {
   position: relative;
-  top: -3.75em;
+  top: -19em;
 }
-
+.article1 #distribute-i {
+  position: relative;
+  top: -10em;
+}
 
 
 /* Startpage & header
