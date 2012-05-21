@@ -1,5 +1,8 @@
 ---
 layout: article
+images:
+  - title: The Product is the Marketing
+    url: article1.png
 ---
 
 > Before if you were making a product, the right business strategy was to 

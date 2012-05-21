@@ -28,18 +28,17 @@ body {
 /* Infographics
 */
 
-#infogr .action, #infogr .result {
-  padding: 1.25em 0;
-  font-size: larger;  
-  text-align: center;
+#infogr {
+  border-bottom: 2px solid;
 }
-#infogr .action {
+.article1 .social-networks li {
+  background: #222;
+  color: white;
+  padding: 3% 1%;
+}
+.article1 #buzz {
   background: white;
-  border: 1px solid #f1f1f1;  
-}
-#infogr .result {
-  background: #f1f1f1;
-  border: 1px solid #222;
+  padding: .312em;
 }
 
 
@@ -81,7 +80,7 @@ a.text:hover {
 }
 
 .learn #header, .article #header,
-.learn h1 {
+.learn h1, .how #header {
   background: white;
 }
 

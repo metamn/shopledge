@@ -52,52 +52,61 @@ strong, blockquote em {
 
 #infogr {
   margin: 5em 0;
+  padding: 1.25em;
 }
 
 
 /* The Product is the Marketing */
+
+.article ul li {  
+  white-space: normal;
+}
+
 .article1 .social-networks li {
   width: 20%;
-  margin-right: 5%;
+  margin-right: 3%;
   text-align: center;
 }
 .article1 .social-networks li.last {
   margin-right: 0;
 }
 
-.article1 #idea {
+.article1 #buzz {
   position: relative;
-  top: -12.5em;
+  top: 10em;
+  left: 1em;
 }
-.article1 #buzz, .article1 #create-arrows {
+
+.article #create, .article #engage, .article #arrow2 {
   position: relative;
   top: -5em;
 }
-
-.article1 .create li {
+.article #create {
+  left: 10em;
+}
+.article #create li {
   width: 45%;
   margin-right: 5%;
-  text-align: center;
 }
-.article1 .create li.last {
+.article #create li.last {
   margin-right: 0;
 }
-.article1 #fulfill {
-    position: relative;
-    top: -17.5em;
+.article #create h1 {
+  padding: 0;
+  margin-left: 5%;
 }
-.article1 #create, .article1 #distribute-a {
-  position: relative;
-  top: -5.5em;
+
+.article1 #arrow2, .article #engage {
+  float: right;
 }
-.article1 #distribute {
-  position: relative;
-  top: -19em;
+.article #engage {
+  right: 2em;
+  top: 5em;
 }
-.article1 #distribute-i {
-  position: relative;
-  top: -10em;
-}
+
+.article #logos2 {
+  margin-top: 15em;
+} 
 
 
 /* Startpage & header
