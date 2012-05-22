@@ -3,6 +3,7 @@ layout: article
 images:
   - title: The Product is the Marketing
     url: article1.png
+excerpt: Instead of spending dollars on marketing *make use of* your audience.
 ---
 
 > Before if you were making a product, the right business strategy was to 
@@ -16,7 +17,7 @@ Since then ...
 
 Finally ...
 
-> If you are a company (is to) put the vast majority of your energy, 
+> If you are a company put the vast majority of your energy, 
 > attention and dollars into building a great product or service and 
 > *put a smaller amount into shouting about it, marketing it.* 
 > If I build a great product or service, my customers will tell each other.
@@ -66,6 +67,9 @@ digital trends and their impact on marketing we have a following summary from
 4. **Distributing content** on channels where consumers are able to **engage** with.
  
 {% include the-product-is-the-marketing.html %}
+
+
+
 
 
 

@@ -12,7 +12,7 @@ title: Learn e-commerce the easy way
     <a title="Click to read {{ post.title }}" href="{{ post.url }}">
       <h3>{{ post.title }}</h3>
       <img title="{{ post.images[0].title }}" src="{{ site.images }}/{{ post.images[0].url }}" />
-      <p>{{ post.excerpt }}</p>
+      <div class="excerpt">{{ post.excerpt }}</div>
     </a>
   </li>
 {% endfor %}

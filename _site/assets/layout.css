@@ -38,7 +38,9 @@ blockquote {
   font-size: larger;
   font-style: italic;
   margin: 1.25em;
+  margin-bottom: 2.5em;
   padding-left: 1.25em;
+  line-height: 2;
 }
 
 strong, blockquote em {
@@ -107,6 +109,8 @@ strong, blockquote em {
 .article #logos2 {
   margin-top: 15em;
 } 
+
+
 
 
 /* Startpage & header
@@ -213,6 +217,11 @@ strong, blockquote em {
 .contact #header #contact,
 .how #header #how {
   display: none;
+}
+
+
+.learn .excerpt {
+  margin: .625em 0;
 }
 
 
