@@ -121,5 +121,5 @@ team effectiveness, the health of your business processes etc.
 Using this metric what you'll have to care about is only to *spend less then
 the Per Visit Value a channel offers.*
 
-
+&nbsp;
 
