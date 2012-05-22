@@ -75,5 +75,12 @@ how much profit they will generate, and when.
   </tbody>
 </table>
 
+*There could be other channels like __phone sales__ we are not covering 
+here. Take a break and discover all these for your business.
+
+## Measure Your Channels
+
+
+
 
 

@@ -110,7 +110,7 @@ a.text:hover {
 
 /* Table */
 table {
-  margin-top: 2.5em;
+  margin: 2.5em 0;
 }
 thead td {
   border-bottom: 1px solid;
