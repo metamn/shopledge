@@ -27,7 +27,7 @@ h3 + h4 {
   padding-top: 0;
 }
 
-p + ul {
+p + ul, p + ol {
   margin-top: 1.25em;
 }
 
