@@ -27,6 +27,10 @@ h3 + h4 {
   padding-top: 0;
 }
 
+p + ul {
+  margin-top: 1.25em;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -150,8 +154,6 @@ strong, blockquote em {
   padding-top: 0;
 }
 
-
-
 .startpage #intro {
   position: absolute;
   top: 20%;
@@ -219,6 +221,14 @@ strong, blockquote em {
   display: none;
 }
 
+
+
+/* Article index
+*/
+
+.learn li {
+  margin-bottom: 15em;
+}
 
 .learn .excerpt {
   margin: .625em 0;

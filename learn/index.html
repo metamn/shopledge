@@ -7,10 +7,10 @@ title: Learn e-commerce the easy way
 <h1>{{ page.title }}</h1>
 
 <ul>
-{% for post in site.posts %}
+{% for post in site.posts reversed %}
   <li>
     <a title="Click to read {{ post.title }}" href="{{ post.url }}">
-      <h3>{{ post.title }}</h3>
+      <h3>{{ post.title }} <span class="red">&rarr;</span></h3>
       <img title="{{ post.images[0].title }}" src="{{ site.images }}/{{ post.images[0].url }}" />
       <div class="excerpt">{{ post.excerpt }}</div>
     </a>
