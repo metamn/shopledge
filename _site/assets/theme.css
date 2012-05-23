@@ -25,6 +25,9 @@ body {
 .red, a .red {
   color: red;
 }
+.gray, a.gray {
+  color: #666;
+}
 
 
 
@@ -45,6 +48,18 @@ body {
   padding: .312em;
 }
 
+.article2 li.highlight1 {
+  border-bottom: 1px solid #666;
+  background: #f1f1f1; 
+}
+.article2 li.highlight2 {
+  border-bottom: 1px solid #666;
+  background: #A49494; 
+}
+.article2 li.highlight3 {
+  border-bottom: 1px solid #666;
+  background: #ABB7BE; 
+}
 
 
 /* Links */

@@ -176,13 +176,45 @@ avoid more damage.
 
 ## So The Magic Formula Is
 
-#### Profit = Revenue - Channel Costs - Rewards
+<div id="infogr" class="article2 block">
+  <ul id="l4" class="inline-list">
+    <li>Design</li>
+    <li class="op">*</li>
+    <li>Channel Fee</li>    
+    <li class="op">=</li>
+    <li id="title">Advertising</li>
+  </ul>
+  
+  <ul id="l1" class="first inline-list">
+    <li>Profit</li>
+    <li class="op">=</li>
+    <li id="revenue" class="link">Revenue <span class="sign">&darr;</span></li>
+    <li class="op">-</li>
+    <li id="ad" class="link">Advertising <span class="sign">&uarr;</span></li>
+    <li class="op">-</li>
+    <li>Rewards</li>
+  </ul>
+  
+  <ul id="l2" class="inline-list">
+    <li>&nbsp;</li>
+    <li class="op">&nbsp;</li>
+    <li id="title">Revenue</li>
+    <li class="op">=</li>
+    <li id="visit" class="link">New Visits <span class="sign">&darr;</span></li>
+    <li class="op">*</li>
+    <li>New Per Visit Value</li>    
+  </ul>
+  
+  <ul id="l3" class="inline-list">
+    <li>Planned Visits</li>
+    <li class="op">*</li>
+    <li>New Conversion Rate</li>    
+    <li class="op">=</li>
+    <li id="title">New Visits</li>
+  </ul>
+  
+  
+  
+  
+</div>
 
-#### Revenue = New Visits * New Per Visit Value
-
-#### New Visits = Planned Visits * New Conversion Rate
-
-#### Channel Costs = Design Material + Fee Using The Channel
-
-#### Profit = Planned Visits * New Conversion Rate * New Per Visit Value - Design Material - Fee Using The Channel - Rewards
- 

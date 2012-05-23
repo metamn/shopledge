@@ -2,10 +2,27 @@ jQuery.noConflict();
      
 
 jQuery(document).ready(function(){
+
+  // Article 2 Infographics
+  jQuery(".article2 ul").hide();
+  jQuery(".article2 ul.first").show();
   
-  // Show contact info on click
-  jQuery("#contact li").click(function() {
-    jQuery(this).next().toggleClass('hidden', 1000).slow();
+  jQuery(".article2 #revenue").click(function() {
+    jQuery(".article2 #l2").slideToggle();
+    jQuery(this).toggleClass('highlight1');
+    jQuery(".article2 #l2 #title").addClass('highlight1');
+  });
+  
+  jQuery(".article2 #visit").click(function() {
+    jQuery(".article2 #l3").slideToggle();
+    jQuery(this).toggleClass('highlight2');
+    jQuery(".article2 #l3 #title").addClass('highlight2');
+  });
+  
+  jQuery(".article2 #ad").click(function() {
+    jQuery(".article2 #l4").slideToggle();
+    jQuery(this).toggleClass('highlight3');
+    jQuery(".article2 #l4 #title").addClass('highlight3');
   });
 
   // Creating TOC for products and articles
@@ -22,12 +39,6 @@ jQuery(document).ready(function(){
     res += "</ul>";
     jQuery("#article #toc").append(res);
   }
-
-  // Show features on footer icons
-  jQuery("#footer #icons img").click(function() {
-    var txt = jQuery(this).attr('title');
-    jQuery("#footer #text h2").html(txt);
-  });
      
     
 }); 

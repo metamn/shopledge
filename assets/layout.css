@@ -83,21 +83,21 @@ strong, blockquote em {
   left: 1em;
 }
 
-.article #create, .article #engage, .article #arrow2 {
+.article1 #create, .article1 #engage, .article1 #arrow2 {
   position: relative;
   top: -5em;
 }
-.article #create {
+.article1 #create {
   left: 10em;
 }
-.article #create li {
+.article1 #create li {
   width: 45%;
   margin-right: 5%;
 }
-.article #create li.last {
+.article1 #create li.last {
   margin-right: 0;
 }
-.article #create h1 {
+.article1 #create h1 {
   padding: 0;
   margin-left: 5%;
 }
@@ -105,7 +105,7 @@ strong, blockquote em {
 .article1 #arrow2, .article #engage {
   float: right;
 }
-.article #engage {
+.article1 #engage {
   right: 2em;
   top: 5em;
 }
@@ -113,6 +113,25 @@ strong, blockquote em {
 .article #logos2 {
   margin-top: 15em;
 } 
+
+/* Run Profitable Campaigns */
+
+.article2 {
+  font-size: larger;
+}
+.article2 #l1 {
+  font-size: large;
+}
+
+.article2 li {
+  width: 20%;
+}
+.article2 li.op {
+  width: 5%;
+}
+.article2 li.long {
+  width: 40%;
+}
 
 
 
