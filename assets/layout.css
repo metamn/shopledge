@@ -119,8 +119,8 @@ strong, blockquote em {
 .article2 {
   font-size: larger;
 }
-.article2 #l1 {
-  font-size: large;
+.article ul {
+  margin: 0;
 }
 
 .article2 li {
@@ -129,10 +129,18 @@ strong, blockquote em {
 .article2 li.op {
   width: 5%;
 }
-.article2 li.long {
-  width: 40%;
-}
+.article2 .normal li,
+.article2 .normal li.op {
+  width: auto;
+  display: block;
+} 
 
+.article2 li.highlight {
+  cursor: normal;
+}
+.article2 li.highlight span {
+  display: none;
+}
 
 
 

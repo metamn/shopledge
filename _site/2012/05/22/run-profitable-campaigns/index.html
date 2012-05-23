@@ -222,45 +222,45 @@
 
 <h2 id='so_the_magic_formula_is'>So The Magic Formula Is</h2>
 <div class='article2 block' id='infogr'>
-  <ul class='inline-list' id='l4'>
-    <li>Design</li>
-    <li class='op'>*</li>
-    <li>Channel Fee</li>    
-    <li class='op'>=</li>
-    <li id='title'>Advertising</li>
-  </ul>
   
-  <ul class='first inline-list' id='l1'>
+  <ul class='inline-list' id='main'>
     <li>Profit</li>
     <li class='op'>=</li>
-    <li class='link' id='revenue'>Revenue <span class='sign'>&darr;</span></li>
-    <li class='op'>-</li>
-    <li class='link' id='ad'>Advertising <span class='sign'>&uarr;</span></li>
-    <li class='op'>-</li>
-    <li>Rewards</li>
+    <li id='revenue'>
+      <ul class='normal'>
+        <li class='link' id='tier1'>Revenue <span class='sign'>&darr;</span></li>
+        <li class='link' id='tier2'>New Visits <span class='sign'>&darr;</span></li>
+        <li id='tier3'>Planned Visits</li>
+        <li id='tier3'>New Conversion Rate</li>
+        <li id='tier2'>New Per Visit Value</li>
+      </ul>
+    </li>
+    <li class='op' id='op1'>
+      <ul class='normal'>
+        <li class='op' id='tier1'>-</li>
+        <li class='op' id='tier2'>*</li>
+        <li class='op' id='tier3'>*</li>
+        <li class='op' id='tier3'>*</li>
+        <li class='op' id='tier2'>-</li>
+      </ul>
+    </li>
+    <li id='ad'>
+      <ul class='normal'>
+        <li class='link' id='tier1'>Advertising <span class='sign'>&darr;</span></li>
+        <li id='tier2'>Design</li>
+        <li id='tier2'>Channel Usage Fee</li>
+      </ul>
+    </li>
+    <li class='op' id='op2'>
+      <ul class='normal'>
+        <li class='op' id='tier1'>-</li>
+        <li class='op' id='tier2'>-</li>
+        <li class='op' id='tier2'>-</li>
+      </ul>
+    </li> 
+    <li>Revenue</li>
   </ul>
-  
-  <ul class='inline-list' id='l2'>
-    <li>&nbsp;</li>
-    <li class='op'>&nbsp;</li>
-    <li id='title'>Revenue</li>
-    <li class='op'>=</li>
-    <li class='link' id='visit'>New Visits <span class='sign'>&darr;</span></li>
-    <li class='op'>*</li>
-    <li>New Per Visit Value</li>    
-  </ul>
-  
-  <ul class='inline-list' id='l3'>
-    <li>Planned Visits</li>
-    <li class='op'>*</li>
-    <li>New Conversion Rate</li>    
-    <li class='op'>=</li>
-    <li id='title'>New Visits</li>
-  </ul>
-  
-  
-  
-  
+    
 </div>
   </div>
   <div class="clear"></div>

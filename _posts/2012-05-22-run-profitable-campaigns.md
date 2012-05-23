@@ -177,44 +177,44 @@ avoid more damage.
 ## So The Magic Formula Is
 
 <div id="infogr" class="article2 block">
-  <ul id="l4" class="inline-list">
-    <li>Design</li>
-    <li class="op">*</li>
-    <li>Channel Fee</li>    
-    <li class="op">=</li>
-    <li id="title">Advertising</li>
-  </ul>
   
-  <ul id="l1" class="first inline-list">
+  <ul id="main" class="inline-list">
     <li>Profit</li>
     <li class="op">=</li>
-    <li id="revenue" class="link">Revenue <span class="sign">&darr;</span></li>
-    <li class="op">-</li>
-    <li id="ad" class="link">Advertising <span class="sign">&uarr;</span></li>
-    <li class="op">-</li>
-    <li>Rewards</li>
+    <li id="revenue">
+      <ul class="normal">
+        <li id="tier1" class="link">Revenue <span class="sign">&darr;</span></li>
+        <li id="tier2" class="link">New Visits <span class="sign">&darr;</span></li>
+        <li id="tier3" >Planned Visits</li>
+        <li id="tier3" >New Conversion Rate</li>
+        <li id="tier2" >New Per Visit Value</li>
+      </ul>
+    </li>
+    <li id="op1" class="op">
+      <ul class="normal">
+        <li id="tier1" class="op">-</li>
+        <li id="tier2" class="op">*</li>
+        <li id="tier3" class="op">*</li>
+        <li id="tier3" class="op">*</li>
+        <li id="tier2" class="op">-</li>
+      </ul>
+    </li>
+    <li id="ad">
+      <ul class="normal">
+        <li id="tier1" class="link">Advertising <span class="sign">&darr;</span></li>
+        <li id="tier2">Design</li>
+        <li id="tier2">Channel Usage Fee</li>
+      </ul>
+    </li>
+    <li id="op2" class="op">
+      <ul class="normal">
+        <li id="tier1" class="op">-</li>
+        <li id="tier2" class="op">-</li>
+        <li id="tier2" class="op">-</li>
+      </ul>
+    </li> 
+    <li>Revenue</li>
   </ul>
-  
-  <ul id="l2" class="inline-list">
-    <li>&nbsp;</li>
-    <li class="op">&nbsp;</li>
-    <li id="title">Revenue</li>
-    <li class="op">=</li>
-    <li id="visit" class="link">New Visits <span class="sign">&darr;</span></li>
-    <li class="op">*</li>
-    <li>New Per Visit Value</li>    
-  </ul>
-  
-  <ul id="l3" class="inline-list">
-    <li>Planned Visits</li>
-    <li class="op">*</li>
-    <li>New Conversion Rate</li>    
-    <li class="op">=</li>
-    <li id="title">New Visits</li>
-  </ul>
-  
-  
-  
-  
+    
 </div>
 
