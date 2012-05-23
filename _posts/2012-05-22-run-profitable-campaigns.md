@@ -3,7 +3,7 @@ layout: article
 images:
   - title: Google Analytics for E-commerce / Per Visit Value
     url: article2.png
-excerpt: Every move you make is measurable in dollars.
+excerpt: Every move you make must be measurable in dollars.
 ---
 
 Every penny spent in your company must be *profitable*.
@@ -58,8 +58,8 @@ how much profit they will generate, and when.
   
   <tr>
     <td class="highlight">Direct Traffic</td>
-    <td>Brand Awareness</td>
     <td>Print, Outdoor, Media, Events, etc.</td>
+    <td>Brand Awareness</td>
     <td>Offline advertising (cash or barter)</td>
   </tr>
   
@@ -121,5 +121,68 @@ team effectiveness, the health of your business processes etc.
 Using this metric what you'll have to care about is only to *spend less then
 the Per Visit Value a channel offers.*
 
-&nbsp;
+## On Planning Successful Campaigns
 
+Shop owners must deal with the fact that campaigns are decreasing the site's
+overall Conversion Rate and Per Visit Value. But they might / *must* 
+increase sales and profit.
+ 
+Without campaigns your site is reached by more involved audience who
+found you by their own, looking for something which turns out to be you.
+
+With campaigns visitors are somehow *forced* to visit your site thus
+their value, motivation expressed in Conversion Rate and Per Visit Value is
+lower.
+
+The overall goal of campaigns is to expand the market and increase sales with
+more work and investment from your side. Be prepared for that.
+
+### Goals
+ 
+Every campaign must have a clear goal &mdash; customer acquisition, 
+returning customers &mdash; and must offer a reward for participants.
+
+Caring about your existing customers is usually more profitable than
+acquiring new customers unless you find niches really waiting for you.
+
+Start with making your customers buy more &mdash; then bring new customers and make
+them, again, to stay with you.
+
+### Campaign Cost
+
+Calculating campaign costs are first of all determined by the reach:
+how many new visitors will you bring in?
+
+Then these new visitors' value must be calculated taking into consideration
+they will have less interest than existing visitors before the campaign.
+
+With the two numbers above you'll approximate how much revenue you'll generate
+with a campaign.
+
+To make profit you must create costs &mdash; the cost of the running the campaign,
+to measure the campaign and the rewards offered &mdash; lower than the
+planned revenue.
+
+### Consider Risk
+
+Calculating revenue is guessing, calculating cost is mathemathics.
+
+To stop loss you must first ask yourself: given these costs what is the
+minimum number of new visitors / customers I must bring in to break even?
+
+Always pay attention on campaign start to reach the break even point.
+Then you can let freely the campaign flow, or stop it immediately to
+avoid more damage.
+
+## So The Magic Formula Is
+
+#### Profit = Revenue - Channel Costs - Rewards
+
+#### Revenue = New Visits * New Per Visit Value
+
+#### New Visits = Planned Visits * New Conversion Rate
+
+#### Channel Costs = Design Material + Fee Using The Channel
+
+#### Profit = Planned Visits * New Conversion Rate * New Per Visit Value - Design Material - Fee Using The Channel - Rewards
+ 
