@@ -49,8 +49,17 @@ body {
 }
 
 
-.article2 li.highlight {
-  border-bottom: 1px dotted;
+.article2 #revenue, .article2 #ad,
+.article2 #visit {
+  background: #222;
+  color: white;
+  cursor: pointer;
+}
+.article2 .op {
+  color: red;
+}
+.article2 td {
+  border-bottom: none;
 }
 
 

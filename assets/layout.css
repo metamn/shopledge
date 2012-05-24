@@ -56,13 +56,13 @@ strong, blockquote em {
 /* Infographics
 */
 
-#infogr {
+
+/* The Product is the Marketing */
+
+.article1 {
   margin: 5em 0;
   padding: 1.25em;
 }
-
-
-/* The Product is the Marketing */
 
 .article ul li {  
   white-space: normal;
@@ -118,28 +118,18 @@ strong, blockquote em {
 
 .article2 {
   font-size: larger;
+  margin: 2.5em 0;
+  padding-bottom: 2.5em;
 }
-.article ul {
+.article2 td {
+  vertical-align: middle;
+}
+.article2 ul {
   margin: 0;
+  list-style: none;
 }
-
-.article2 li {
-  width: 20%;
-}
-.article2 li.op {
-  width: 5%;
-}
-.article2 .normal li,
-.article2 .normal li.op {
-  width: auto;
-  display: block;
-} 
-
-.article2 li.highlight {
-  cursor: normal;
-}
-.article2 li.highlight span {
-  display: none;
+.article ul li.op {
+  margin-left: 20%;
 }
 
 

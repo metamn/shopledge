@@ -71,17 +71,6 @@
 
 <div id="article">  
   
-  <div id="image">
-    <img src="article2.png" title="Google Analytics for E-commerce / Per Visit Value" />
-  </div>
-  
-  
-  <!--
-  <div id="toc" class="hidden">
-    <h3>Table of Contents</h3>
-  </div>
-  -->
-  
   <div id="body">
     <p>Every penny spent in your company must be <em>profitable</em>. Even your support activities &#8212; non-sales oriented operations &#8212; must generate intangible profit like brand trust and customer satisfaction.</p>
 
@@ -164,7 +153,7 @@
 
 <p>Google does that by using the <strong>Per Visit Value</strong> metric.</p>
 
-<p><img alt='Google Analytics for E-commerce / Per Visit Value' src='http://dl.dropbox.com/u/3644199/shopledge.com/article2.png' /></p>
+<p><a href='http://dl.dropbox.com/u/3644199/shopledge.com/article2b.png' title='View larger version'><img alt='Google Analytics for E-commerce / Per Visit Value' src='http://dl.dropbox.com/u/3644199/shopledge.com/article2b.png' /></a></p>
 
 <h3 id='per_visit_value'>Per Visit Value</h3>
 
@@ -223,44 +212,43 @@
 <h2 id='so_the_magic_formula_is'>So The Magic Formula Is</h2>
 <div class='article2 block' id='infogr'>
   
-  <ul class='inline-list' id='main'>
-    <li>Profit</li>
-    <li class='op'>=</li>
-    <li id='revenue'>
-      <ul class='normal'>
-        <li class='link' id='tier1'>Revenue <span class='sign'>&darr;</span></li>
-        <li class='link' id='tier2'>New Visits <span class='sign'>&darr;</span></li>
-        <li id='tier3'>Planned Visits</li>
-        <li id='tier3'>New Conversion Rate</li>
-        <li id='tier2'>New Per Visit Value</li>
-      </ul>
-    </li>
-    <li class='op' id='op1'>
-      <ul class='normal'>
-        <li class='op' id='tier1'>-</li>
-        <li class='op' id='tier2'>*</li>
-        <li class='op' id='tier3'>*</li>
-        <li class='op' id='tier3'>*</li>
-        <li class='op' id='tier2'>-</li>
-      </ul>
-    </li>
-    <li id='ad'>
-      <ul class='normal'>
-        <li class='link' id='tier1'>Advertising <span class='sign'>&darr;</span></li>
-        <li id='tier2'>Design</li>
-        <li id='tier2'>Channel Usage Fee</li>
-      </ul>
-    </li>
-    <li class='op' id='op2'>
-      <ul class='normal'>
-        <li class='op' id='tier1'>-</li>
-        <li class='op' id='tier2'>-</li>
-        <li class='op' id='tier2'>-</li>
-      </ul>
-    </li> 
-    <li>Revenue</li>
-  </ul>
-    
+  <table>
+    <tr>
+      <td>Profit</td>
+      <td class='op'>=</td>
+      <td class='click0' id='revenue'>Revenue</td>
+      <td class='op'>-</td>
+      <td id='ad'>Advertising</td>
+      <td class='op'>-</td>
+      <td>Reward</td>
+    </tr>
+  </table>
+  
+  <div class='hidden' id='click0'>    
+    <ul>
+      <li>New Visits</li>
+      <li class='op'>*</li>
+      <li>New Per Visit Value</li>
+    </ul>
+  </div> 
+  
+  <div class='hidden' id='click1'>    
+    <ul>
+      <li>Planned Visits</li>
+      <li class='op'>*</li>
+      <li>New Conversion Rate</li>
+      <li class='op'>*</li>
+      <li>New Per Visit Value</li>
+    </ul>
+  </div> 
+  
+  <div class='hidden' id='ad2'>
+    <ul>
+      <li>Design Cost</li>
+      <li class='op'>*</li>
+      <li>Advertising Fee</li>
+    </ul>
+  </div>
 </div>
   </div>
   <div class="clear"></div>

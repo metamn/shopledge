@@ -5,17 +5,6 @@ id: article
 <h1>{{ page.title }}</h1>
 
 <div id="article">  
-  {% if page.images.size > 0 %}
-  <div id="image">
-    <img src="{{ page.images[0].url }}" title="{{ page.images[0].title }}" />
-  </div>
-  {% endif %}
-  
-  <!--
-  <div id="toc" class="hidden">
-    <h3>Table of Contents</h3>
-  </div>
-  -->
   
   <div id="body">
     {{ content }}

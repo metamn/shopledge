@@ -1,8 +1,10 @@
 ---
 layout: article
 images:
+  - title: Run Profitable Campaigns
+    url: article2a.png
   - title: Google Analytics for E-commerce / Per Visit Value
-    url: article2.png
+    url: article2b.png
 excerpt: Every move you make must be measurable in dollars.
 ---
 
@@ -96,7 +98,7 @@ like Conversion Rate and make it relevant for you unique business details.
 
 Google does that by using the **Per Visit Value** metric.
 
-![{{ page.images[0].title }}]({{ site.images }}/{{ page.images[0].url }})
+[![{{ page.images[1].title }}]({{ site.images }}/{{ page.images[1].url }})]({{ site.images }}/{{ page.images[1].url }} "View larger version")
 
 ### Per Visit Value
 
@@ -178,43 +180,42 @@ avoid more damage.
 
 <div id="infogr" class="article2 block">
   
-  <ul id="main" class="inline-list">
-    <li>Profit</li>
-    <li class="op">=</li>
-    <li id="revenue">
-      <ul class="normal">
-        <li id="tier1" class="link">Revenue <span class="sign">&darr;</span></li>
-        <li id="tier2" class="link">New Visits <span class="sign">&darr;</span></li>
-        <li id="tier3" >Planned Visits</li>
-        <li id="tier3" >New Conversion Rate</li>
-        <li id="tier2" >New Per Visit Value</li>
-      </ul>
-    </li>
-    <li id="op1" class="op">
-      <ul class="normal">
-        <li id="tier1" class="op">-</li>
-        <li id="tier2" class="op">*</li>
-        <li id="tier3" class="op">*</li>
-        <li id="tier3" class="op">*</li>
-        <li id="tier2" class="op">-</li>
-      </ul>
-    </li>
-    <li id="ad">
-      <ul class="normal">
-        <li id="tier1" class="link">Advertising <span class="sign">&darr;</span></li>
-        <li id="tier2">Design</li>
-        <li id="tier2">Channel Usage Fee</li>
-      </ul>
-    </li>
-    <li id="op2" class="op">
-      <ul class="normal">
-        <li id="tier1" class="op">-</li>
-        <li id="tier2" class="op">-</li>
-        <li id="tier2" class="op">-</li>
-      </ul>
-    </li> 
-    <li>Revenue</li>
-  </ul>
-    
+  <table>
+    <tr>
+      <td>Profit</td>
+      <td class="op">=</td>
+      <td id="revenue" class="click0">Revenue</td>
+      <td class="op">-</td>
+      <td id="ad">Advertising</td>
+      <td class="op">-</td>
+      <td>Reward</td>
+    </tr>
+  </table>
+  
+  <div id="click0" class="hidden">    
+    <ul>
+      <li>New Visits</li>
+      <li class="op">*</li>
+      <li>New Per Visit Value</li>
+    </ul>
+  </div> 
+  
+  <div id="click1" class="hidden">    
+    <ul>
+      <li>Planned Visits</li>
+      <li class="op">*</li>
+      <li>New Conversion Rate</li>
+      <li class="op">*</li>
+      <li>New Per Visit Value</li>
+    </ul>
+  </div> 
+  
+  <div id="ad2" class="hidden">
+    <ul>
+      <li>Design Cost</li>
+      <li class="op">*</li>
+      <li>Advertising Fee</li>
+    </ul>
+  </div>
 </div>
 

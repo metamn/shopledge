@@ -3,32 +3,27 @@ jQuery.noConflict();
 
 jQuery(document).ready(function(){
 
-  // Article 2 Infographics
-  //jQuery(".article2 #revenue li, .article2 #op1 li, .article2 #op2 li, .article2 #ad li").hide();
-  //jQuery(".article2 #revenue li").first().show();
-  //jQuery(".article2 #op1 li").first().show();
-  //jQuery(".article2 #op2 li").first().show();
-  //jQuery(".article2 #ad li").first().show();
-  
-  jQuery(".article2 ul.normal li").hide();
-  jQuery(".article2 ul.normal #tier1").show();
-  
-  jQuery(".article2 #revenue #tier1").click(function(){
-    jQuery(this).addClass('highlight');
-    jQuery(".article2 #op1 #tier1").hide();
-    jQuery(".article2 #revenue #tier2, .article2 #op1 #tier2").show();    
+  jQuery(".article2 #revenue").click(function() {        
+    var klass = jQuery(this).attr('class');
+    
+    if (klass == "click0") {
+      jQuery(this).attr('class', 'click1');
+    }  
+    
+    if (klass == "click1") {
+      jQuery(this).css('cursor', 'auto');
+    }
+    
+    var content = ".article2 #" + klass;    
+    var n = jQuery(content).html();    
+    jQuery(this).html(n);          
+  });
+  jQuery(".article2 #ad").click(function() {               
+    var n = jQuery(".article2 #ad2").html();    
+    jQuery(this).html(n);   
+    jQuery(this).css('cursor', 'auto');       
   });
   
-  jQuery(".article2 #revenue #tier2").click(function(){
-    jQuery(".article2 #revenue #tier2.link, .article2 #op1 #tier2").hide();
-    jQuery(".article2 #revenue #tier3, .article2 #op1 #tier3").show();    
-  });
-  
-  jQuery(".article2 #ad #tier1").click(function(){
-    jQuery(this).addClass('highlight');
-    jQuery(".article2 #op2 #tier1").hide();
-    jQuery(".article2 #ad #tier2, .article2 #op2 #tier2").show();    
-  });
   
 
   // Creating TOC for products and articles
