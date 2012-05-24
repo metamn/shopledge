@@ -115,6 +115,19 @@ a.text:hover {
   padding: 1.25em;
 }
 
+#info, #info a, #info a:visited {
+  background: green;
+  color: white;
+}
+#info ul li {
+  margin-bottom: 0;
+}
+
+.button {
+  border: 1px solid;
+  margin: 0 .625em;
+}
+
 
 
 

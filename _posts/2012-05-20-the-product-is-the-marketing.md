@@ -4,6 +4,7 @@ images:
   - title: The Product is the Marketing
     url: article1.png
 excerpt: Instead of spending money on marketing *make use of* your audience.
+price: 0
 ---
 
 > Before if you were making a product, the right business strategy was to 

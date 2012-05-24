@@ -11,7 +11,50 @@ id: article
   </div>
   <div class="clear"></div>
   
-  <div class="excerpt">{{ page.excerpt }}</div>
+  <div class="excerpt" class="block">{{ page.excerpt }}</div>
+  
+  <div id="info" class="block">
+    {% if page.price == 0 %}
+      <div id="subscribe" class="block">
+        <h4>This article is under implementation in our company</h4>
+        <p>
+          When implemented we will share our results
+          <ul>
+            <li>in a dowloadable format, <em>or</em></li>
+            <li>as a tool you can use it.</li>
+          </ul> 
+        </p>
+        <p>
+          To make sure you won't miss it 
+          {% include subscribe-email.html %}
+        </p>
+      </div>    
+    {% else %}
+      <div id="buy" class="block">
+        <h4>This article was implemented in our company</h4>
+        <p>
+          We can <strong>share</strong> with you the following results:
+          <ul>
+            {% for item in page.downloads %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </p>
+        <div id="cart" class="block">
+          <div id="price" class="button"><strong>{{ page.price }} USD</strong></div>
+          <form name="_xclick" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_xclick">
+            <input type="hidden" name="business" value="hello@shopledge.com">
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="hidden" name="item_name" value="{{ page.title }}">
+            <input type="hidden" name="amount" value="{{ page.price }}">
+            <input type="image" src="http://www.paypal.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+          </form>
+        </div>
+   
+      </div>
+    {% endif %}
+  </div>
    
 </div>
 

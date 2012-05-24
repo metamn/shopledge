@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	
+	<title type="text" xml:lang="en">Shopledge. earn your first $500,000 with e-commerce</title>
+	<link type="application/atom+xml" href="/feed/" rel="self"/>
+ 	<link type="text" href="" rel="alternate"/>
+	<updated>2012-05-24T14:32:06+03:00</updated>
+	<id></id>
+	<author>
+		<name>Shopledge</name>
+	</author>
+	<rights></rights>
+	
+	
+	<entry>
+		<title>Run Profitable Campaigns</title>
+		<link href="/2012/05/22/run-profitable-campaigns"/>
+		<updated>2012-05-22T00:00:00+03:00</updated>
+		<id>http:///2012/05/22/run-profitable-campaigns</id>
+		<content type="html">Every move you make must be measurable in dollars.</content>
+	</entry>
+	
+	<entry>
+		<title>The Product Is The Marketing</title>
+		<link href="/2012/05/20/the-product-is-the-marketing"/>
+		<updated>2012-05-20T00:00:00+03:00</updated>
+		<id>http:///2012/05/20/the-product-is-the-marketing</id>
+		<content type="html">Instead of spending money on marketing *make use of* your audience.</content>
+	</entry>
+	
+</feed>

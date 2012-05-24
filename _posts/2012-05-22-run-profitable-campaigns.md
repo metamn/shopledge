@@ -6,6 +6,10 @@ images:
   - title: Google Analytics for E-commerce / Per Visit Value
     url: article2b.png
 excerpt: Every move you make must be measurable in dollars.
+price: 12
+downloads:
+  - A case study how we succeded putting in practice this article
+  - An interactive Google Spreadsheet to plan, run and measure your campaigns  
 ---
 
 Every penny spent in your company must be *profitable*.

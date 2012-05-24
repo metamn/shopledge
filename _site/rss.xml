@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+
+  <channel>
+    <title>Shopledge</title>
+    <link></link>
+    <atom:link href="Shopledge/rss.xml" rel="self" type="application/rss+xml" />
+    <description>earn your first $500,000 with e-commerce</description>
+    <language>en-us</language>
+    <pubDate>Thu, 24 May 2012 14:32:06 EEST</pubDate>
+    <lastBuildDate>Thu, 24 May 2012 14:32:06 EEST</lastBuildDate>
+
+    
+    <item>
+      <title>Run Profitable Campaigns</title>
+      <link>/2012/05/22/run-profitable-campaigns</link>
+      <pubDate>Tue, 22 May 2012 00:00:00 EEST</pubDate>
+      <author></author>
+      <guid>/2012/05/22/run-profitable-campaigns</guid>
+      <description>Every move you make must be measurable in dollars.</description>
+    </item>
+    
+    <item>
+      <title>The Product Is The Marketing</title>
+      <link>/2012/05/20/the-product-is-the-marketing</link>
+      <pubDate>Sun, 20 May 2012 00:00:00 EEST</pubDate>
+      <author></author>
+      <guid>/2012/05/20/the-product-is-the-marketing</guid>
+      <description>Instead of spending money on marketing *make use of* your audience.</description>
+    </item>
+    
+  </channel> 
+</rss>
+
