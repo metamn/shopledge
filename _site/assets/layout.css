@@ -114,8 +114,8 @@ strong, blockquote em {
   margin-top: 15em;
 } 
 
-/* Run Profitable Campaigns */
 
+/* Run Profitable Campaigns */
 .article2 {
   font-size: larger;
   margin: 2.5em 0;
@@ -141,7 +141,8 @@ strong, blockquote em {
 .startpage #intro, .startpage #about {
   display: inline-block;
 } 
-.startpage #header .menu {
+.startpage #header .menu,
+.startpage footer {
   display: none;
 }
 
@@ -183,7 +184,7 @@ strong, blockquote em {
   right: 5%;
 }
 
-.startpage .box {
+.box {
   width: 10em;
   height: 10em;
   padding: 2.5em;
@@ -216,19 +217,19 @@ strong, blockquote em {
 }
 
 
-.page h1 {
-  position: fixed;
-  right: 5%;
-  z-index: 2;
+.page #title {  
   width: 25%;
+  float: right;
 }
+.article #article, .page #body {
+  width: 65%;
+  margin-right: 5%;
+  float: left;  
+}
+
 .page ul {
   list-style: none;
   margin: 0;
-}
-#article, .page ul {
-  width: 65%;
-  margin-right: 5%;  
 }
 
 
@@ -243,7 +244,7 @@ strong, blockquote em {
 /* Article index
 */
 
-.learn li {
+.learn #item {
   margin-bottom: 15em;
 }
 
@@ -251,6 +252,10 @@ strong, blockquote em {
   margin: .625em 0;
 }
 
+.excerpt {
+  font-size:4.23077em;
+  padding: 1.25em;
+}
 
 
 /* Article
@@ -262,6 +267,7 @@ strong, blockquote em {
 
 #article #info {
   margin: 2.5em 0;
+  font-size: larger;
 }
 #article #info #subscribe,
 #article #info #buy  {
@@ -280,3 +286,29 @@ strong, blockquote em {
 #article #buy #cart #price {
   cursor: auto;
 }
+
+#article #info #help {
+  margin-top: .625em;
+}
+#article #info #help span {
+  font-size: smaller;
+}
+#article #info #help #shipping {
+  position: relative;
+  top: -10em;
+  left: 30em;
+}
+
+
+
+/* Footer
+*/
+
+footer {
+  margin: 0 0 2.5em;
+}
+
+.page footer {
+  margin-top: 15em;
+}
+

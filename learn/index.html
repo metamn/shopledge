@@ -1,19 +1,17 @@
 ---
-layout: default
+layout: page
 id: page learn
 title: Learn e-commerce the easy way
 ---
 
-<h1>{{ page.title }}</h1>
-
-<ul>
+<div id="items">
 {% for post in site.posts reversed %}
-  <li>
+  <div id="item">
     <a title="Click to read {{ post.title }}" href="{{ post.url }}">
       <h3>{{ post.title }} <span class="red">&rarr;</span></h3>
       <img title="{{ post.images[0].title }}" src="{{ site.images }}/{{ post.images[0].url }}" />
       <div class="excerpt">{{ post.excerpt }}</div>
     </a>
-  </li>
+  </div>
 {% endfor %}
-</ul>
+</div>

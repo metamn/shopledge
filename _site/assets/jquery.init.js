@@ -3,6 +3,12 @@ jQuery.noConflict();
 
 jQuery(document).ready(function(){
 
+  // Shipping info
+  jQuery("#article #buy #help span").click(function() {
+    jQuery("#article #buy #help #shipping").slideToggle();
+  });
+
+  // Article 2 navigation
   jQuery(".article2 #revenue").click(function() {        
     var klass = jQuery(this).attr('class');
     

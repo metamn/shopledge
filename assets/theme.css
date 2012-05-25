@@ -20,6 +20,8 @@ body {
   - lightgray: #f1f1f1
 - logo: red;
 - link: blue;
+- highlight: #1485CC (blue)
+
 
 */
 .red, a.red {
@@ -100,8 +102,7 @@ a.text:hover {
   background: red;
 }
 
-.learn #header, .article #header,
-.learn h1, .how #header {
+.page #header, .article #header {
   background: white;
 }
 
@@ -111,16 +112,18 @@ a.text:hover {
 
 .excerpt {
   background: #f1f1f1;
-  font-size: 400%; 
-  padding: 1.25em;
 }
 
 #info, #info a, #info a:visited {
-  background: green;
+  background: #1485CC;
   color: white;
 }
 #info ul li {
   margin-bottom: 0;
+}
+#article #info #help .box {
+  background: white;
+  color: #1485CC;
 }
 
 .button {
