@@ -44,7 +44,7 @@ These are the major sources of revenue for your business.
 You'll have to know how they work, how much you can spend on each channel,
 how much profit they will generate, and when.
 
-<table>
+<table class="desktop">
   <thead>
   <tr>
     <td class="highlight">Channel</td>
@@ -182,7 +182,7 @@ avoid more damage.
 
 ## So The Magic Formula Is
 
-<div id="infogr" class="article2 block">
+<div id="infogr" class="desktop article2 block">
   
   <table>
     <tr>
@@ -222,4 +222,9 @@ avoid more damage.
     </ul>
   </div>
 </div>
+
+<div id="infogr" class="mobile article2 block">
+  <img src="{{ site.images }}/{{ page.images[0].url }}" />
+</div>
+
 

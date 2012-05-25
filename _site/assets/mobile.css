@@ -29,8 +29,9 @@ h4 {  font-size:1.16667em; padding:1.51785em 0; }
 p + p {
   margin-top: .625em;
 }
-table {
-  margin-bottom: 1.25em;
+table, td {
+  width: auto;
+  display: block;
 }
 
 img {

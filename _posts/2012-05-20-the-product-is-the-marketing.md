@@ -3,6 +3,8 @@ layout: article
 images:
   - title: The Product is the Marketing
     url: article1.png
+  - title: Mobile version
+    url: article1-mobile.png
 excerpt: Instead of spending money on marketing *make use of* your audience.
 price: 0
 ---
@@ -67,7 +69,7 @@ digital trends and their impact on marketing we have a following summary from
 3. **Creating original content** and making it vendible.
 4. **Distributing content** on channels where consumers are able to **engage** with.
  
-<div id="infogr" class="article1 block">
+<div id="infogr" class="article1 desktop block">
   <ul id="logos1" class="social-networks inline-list">
     <li>Facebook</li>
     <li>Twitter</li>
@@ -98,7 +100,9 @@ digital trends and their impact on marketing we have a following summary from
   </ul>
 </div>
 
-
+<div id="infogr" class="article mobile block">
+  <img src="{{ site.images }}/{{ page.images[1].url }}" />
+</div>
 
 
 
