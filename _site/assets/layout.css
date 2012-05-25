@@ -9,6 +9,9 @@
 .desktop {
   display: block;
 }
+.menu .desktop {
+  display: inline-block;
+}
 
 
 /* Typography
@@ -137,10 +140,13 @@ strong, blockquote em {
 /* Startpage & header
 */
 
-.startpage #header #title, .startpage #header #strapline,
+.startpage #header #title,
 .startpage #intro, .startpage #about {
   display: inline-block;
 } 
+.startpage #header #strapline {
+  display: block;
+}
 .startpage #header .menu,
 .startpage footer {
   display: none;
@@ -148,8 +154,26 @@ strong, blockquote em {
 
 .startpage #header {
   text-align: center;
-  margin-top: 50%;
 }
+
+.startpage #logo {
+  position: fixed;
+  bottom: 2%;
+  width: 80%;
+  margin: 0 auto;
+}
+.startpage #intro {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+}
+.startpage #about {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+}
+
+
 
 #header #image {  
   height: 5em;
@@ -164,7 +188,6 @@ strong, blockquote em {
   top: .7em;
   right: .2em;
 }
-
 .startpege #header #strapline {
   width: 100%;
 }
@@ -172,17 +195,6 @@ strong, blockquote em {
   padding-top: 0;
 }
 
-.startpage #intro {
-  position: absolute;
-  top: 20%;
-  left: 5%;
-}
-
-.startpage #about {
-  position: absolute;
-  top: 10%;
-  right: 5%;
-}
 
 .box {
   width: 10em;
@@ -238,6 +250,7 @@ strong, blockquote em {
 .how #header #how {
   display: none;
 }
+
 
 
 

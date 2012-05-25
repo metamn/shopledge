@@ -1,18 +1,60 @@
-#index #shopify ul.inline-list li {
-  width: 20%;
+/* Typography
+*/
+
+
+/* Stranded, em */
+body { font-size:100%; line-height:1.25; }
+h1, h2, h3 { margin-top:0; margin-bottom:0; }
+h1 { font-size:2.61538em; padding:1.28666em 0; }
+h2 { font-size:2em; padding:1.25em 0; }
+h3 { font-size:1.61538em; padding:1.30936em 0; }
+h4 { font-size:1.23077em; padding:1.40579em 0; }
+
+.excerpt {
+  font-size:3.23077em;
 }
-#index #smuff table {
+
+
+/* Startpage
+*/
+
+.startpage #intro {
+  top: 15%;
+  left: 3%;
+}
+.startpage #about {
+  top: 7%;
+  right: 3%;
+}
+
+
+/* Article index
+*/
+
+.page #title {  
+  width: 20%;
+  float: right;
+  font-size: smaller;
+}
+.article #article, .page #body {
+  width: 75%;
+  margin-right: 5%;
+  float: left;  
+}
+
+
+/* Article
+*/
+
+.article #article {
   width: 100%;
 }
 
 
 
+/* Infographics
+*/
 
-
-
-#footer #text {
-  height: 12.5em;
-}
-#footer table td img {
-  max-width: 60%;
+.article1 #create {
+  left: 5em;
 }

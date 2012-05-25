@@ -5,6 +5,9 @@
 .mobile {
   display: block;
 }
+.menu .mobile {
+  display: inline-block;
+}
 .desktop {
   display: none !important;
 }
@@ -19,14 +22,16 @@ h2 { font-size:1.5em; padding:1.45833em 0; }
 h3 { font-size:1.33333em; padding:1.25em 0; }
 h4 {  font-size:1.16667em; padding:1.51785em 0; }
 
+.excerpt {
+  font-size: 2em;
+}
+
 p + p {
   margin-top: .625em;
 }
 table {
   margin-bottom: 1.25em;
 }
-
-
 
 img {
   width: 100%;
@@ -35,69 +40,82 @@ img {
 
 
 
+/* Startpage
+*/
 
-#header #contact {
+.startpage #logo {
+  width: auto;
+  display: block;
+  position: relative;
+  margin-top: 5em;
+}
+.startpage li#strapline {
+  white-space: normal;
+}
+
+.startpage #intro, .startpage #about {
   display: none;
 }
-#header #logo {
-  margin-top: .625em;
+
+
+
+/* Article index
+*/
+
+.page #title {  
+  display: none;
 }
-#header li.logo {  
-  height: 3.5em;
-  width: 3.5em;
+.article #article, .page #body {
+  width: 100%;
+  margin-right: 0;
+  float: left;  
 }
-#header li.logo span {
-  font-size: small;
-  top: .4em;
+
+li#articles, li#contact, li#how {
+  font-size: smaller;
 }
-#header li.sitename {
+
+
+/* Article
+*/
+
+.article #article {
+  width: 100%;
+}
+
+#suscribe-email {
+  margin: 1.25em 0;
+  display: inline-block;
+}
+
+#article #info #help {
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: .312em 0 1.25em;
+}
+
+#article #info #help #shipping {
   position: relative;
-  top: -.625em;
+  top: 1em;
+  left: 0.5em;
+  font-size: small;
+}
+#article #info #help #shipping ol {
+  margin: .625em 1.25em;
 }
 
 
 
-#index #intro {
-  text-align: justify;
+/* Infographics
+*/
+
+.article1 #create {
+  left: 1em;
 }
-#index #intro, #index #shopify, #index #smuff, #index .work {
-  margin-bottom: 1.25em;
-}
-#index #shopify ul.inline-list li {
-  width: auto;
-}
-#index #smuff .text img {
-  margin-bottom: .625em;
+.article1 img {
+  width: 20%;
 }
 
-
-
-
-
-#article #meta, #article #toc {
-  float: left;
-  width: auto;
-  margin: 0;
-}
-#article #similar ul {
-  width: auto;
-}
-
-
-
-#archive #item, #archive #item.total1, #archive #item.total2 {
-  width: auto;
-  margin: 0;
-  float: left;
-}
-
-
-
-#footer #icons table td {
-  padding: 0 .36em;
-}
-#footer #icons .wordpress img {
-  max-width: 5em;
-}
 
 
