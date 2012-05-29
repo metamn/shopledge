@@ -65,6 +65,14 @@ body {
 }
 
 
+.chart {
+  border: 1px solid #f1f1f1;
+}
+#conversion-rate tbody {
+  border-bottom: 2px solid;
+}
+
+
 
 /* Links */
 

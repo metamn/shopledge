@@ -142,7 +142,11 @@ strong, blockquote em {
 }
 #chart_conversion_rate {
   width: 40em;
-  height: 30em;
+  height: 30em;  
+  position: static !important;
+}
+.chart {
+  margin: 2.5em 0;
 }
 
 

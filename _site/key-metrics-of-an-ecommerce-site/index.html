@@ -20,33 +20,34 @@
     <script type="text/javascript" src="/assets/modernizr.custom.50763.js"></script>
 
     
-      <script type="text/javascript" src="https://www.google.com/jsapi"></script>  
-      <script type="text/javascript">
-        google.load("visualization", "1", { packages:["corechart"] });
-        google.setOnLoadCallback(drawChart);
-        
-        function drawChart() {
-          var data = google.visualization.arrayToDataTable([
-            ['Visitors', '1%', '5%'],
-            ['0',     0,         0],
-            ['1000',  300,        1500],
-            ['2000',  600,        3000],
-            ['3000',  900,        4500],
-            ['4000',  1200,       6000],
-            ['5000',  1500,       7500]
-          ]);
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>  
+<script type="text/javascript">
+  google.load("visualization", "1", { packages:["corechart"] });
+  google.setOnLoadCallback(drawChart);
+  
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+      ['Visitors', '1%', '5%'],
+      ['0',     0,         0],
+      ['1000',  300,        1500],
+      ['2000',  600,        3000],
+      ['3000',  900,        4500],
+      ['4000',  1200,       6000],
+      ['5000',  1500,       7500]
+    ]);
 
-          var options = {
-            title: 'Conversion Rate Matters',
-            hAxis: {title: 'Visitors'},
-            vAxis: {title: 'Revenue'}
-          };
+    var options = {
+      title: 'Conversion Rate Matters',
+      hAxis: {title: 'Visitors'},
+      vAxis: {title: 'Revenue'}
+    };
 
-          var chart = new google.visualization.LineChart(document.getElementById('chart_conversion_rate'));
-          chart.draw(data, options);
-        }
-      </script>
-     
+    var chart = new google.visualization.LineChart(document.getElementById('chart_conversion_rate'));
+    chart.draw(data, options);
+  }
+</script>
+
+
 
   </head>
 
@@ -167,10 +168,23 @@
     <td>100</td>
     <td>$30</td>
     <td>$3,000</td>
-  </tr>
-  
+  </tr>  
   </tbody>
-</table><div id='chart_conversion_rate' />
+</table><div class='article3 block' id='infogr'>
+<div class='chart' id='chart_conversion_rate' />
+</div>
+<h3 id='so_what_conversion_rate_means'>So What Conversion Rate Means?</h3>
+
+<p>Put simply, it is</p>
+
+<blockquote>
+<p>the willingness</p>
+</blockquote>
+
+<p>of your visitors to become customers, to buy your products.</p>
+
+<h2 id='optimizing_conversion_rate'>Optimizing Conversion Rate</h2>
+
 <p>&#160;</p>
   </div>
   <div class="clear"></div>

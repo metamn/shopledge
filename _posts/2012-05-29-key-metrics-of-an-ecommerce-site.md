@@ -65,15 +65,25 @@ traffic you drive to your site &mdash; your sales will be modest.
     <td>100</td>
     <td>$30</td>
     <td>$3,000</td>
-  </tr>
-  
+  </tr>  
   </tbody>
 </table>
 
-<div id="chart_conversion_rate"></div>
+<div id="infogr" class="article3 block">
+<div id="chart_conversion_rate" class="chart"></div>
+</div>
+
+### So What Conversion Rate Means?
+
+Put simply, it is 
+
+> the willingness 
+
+of your visitors to become customers,
+to buy your products. 
 
 
-
+## Optimizing Conversion Rate
 
 &nbsp;
 
