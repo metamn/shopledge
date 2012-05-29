@@ -8,25 +8,34 @@
     <atom:link href="Shopledge/rss.xml" rel="self" type="application/rss+xml" />
     <description>earn your first $500,000 with e-commerce</description>
     <language>en-us</language>
-    <pubDate>Fri, 25 May 2012 13:16:29 EEST</pubDate>
-    <lastBuildDate>Fri, 25 May 2012 13:16:29 EEST</lastBuildDate>
+    <pubDate>Tue, 29 May 2012 13:17:43 EEST</pubDate>
+    <lastBuildDate>Tue, 29 May 2012 13:17:43 EEST</lastBuildDate>
 
     
     <item>
+      <title>Key Metrics Of An E-commerce Site</title>
+      <link>/key-metrics-of-an-ecommerce-site</link>
+      <pubDate>Tue, 29 May 2012 00:00:00 EEST</pubDate>
+      <author></author>
+      <guid>/key-metrics-of-an-ecommerce-site</guid>
+      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+    </item>
+    
+    <item>
       <title>Run Profitable Campaigns</title>
-      <link>/2012/05/22/run-profitable-campaigns</link>
+      <link>/run-profitable-campaigns</link>
       <pubDate>Tue, 22 May 2012 00:00:00 EEST</pubDate>
       <author></author>
-      <guid>/2012/05/22/run-profitable-campaigns</guid>
+      <guid>/run-profitable-campaigns</guid>
       <description>Every move you make must be measurable in dollars.</description>
     </item>
     
     <item>
       <title>The Product Is The Marketing</title>
-      <link>/2012/05/20/the-product-is-the-marketing</link>
+      <link>/the-product-is-the-marketing</link>
       <pubDate>Sun, 20 May 2012 00:00:00 EEST</pubDate>
       <author></author>
-      <guid>/2012/05/20/the-product-is-the-marketing</guid>
+      <guid>/the-product-is-the-marketing</guid>
       <description>Instead of spending money on marketing *make use of* your audience.</description>
     </item>
     

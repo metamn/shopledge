@@ -136,6 +136,17 @@ strong, blockquote em {
 }
 
 
+/* Key metrics of an ecommerce site */
+#conversion-rate td {
+  text-align: center;
+}
+#chart_conversion_rate {
+  width: 40em;
+  height: 30em;
+}
+
+
+
 
 /* Startpage & header
 */

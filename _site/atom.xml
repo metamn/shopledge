@@ -4,7 +4,7 @@
 	<title type="text" xml:lang="en">Shopledge. earn your first $500,000 with e-commerce</title>
 	<link type="application/atom+xml" href="/feed/" rel="self"/>
  	<link type="text" href="" rel="alternate"/>
-	<updated>2012-05-25T13:16:29+03:00</updated>
+	<updated>2012-05-29T13:17:43+03:00</updated>
 	<id></id>
 	<author>
 		<name>Shopledge</name>
@@ -13,18 +13,26 @@
 	
 	
 	<entry>
+		<title>Key Metrics Of An E-commerce Site</title>
+		<link href="/key-metrics-of-an-ecommerce-site"/>
+		<updated>2012-05-29T00:00:00+03:00</updated>
+		<id>http:///key-metrics-of-an-ecommerce-site</id>
+		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
+	</entry>
+	
+	<entry>
 		<title>Run Profitable Campaigns</title>
-		<link href="/2012/05/22/run-profitable-campaigns"/>
+		<link href="/run-profitable-campaigns"/>
 		<updated>2012-05-22T00:00:00+03:00</updated>
-		<id>http:///2012/05/22/run-profitable-campaigns</id>
+		<id>http:///run-profitable-campaigns</id>
 		<content type="html">Every move you make must be measurable in dollars.</content>
 	</entry>
 	
 	<entry>
 		<title>The Product Is The Marketing</title>
-		<link href="/2012/05/20/the-product-is-the-marketing"/>
+		<link href="/the-product-is-the-marketing"/>
 		<updated>2012-05-20T00:00:00+03:00</updated>
-		<id>http:///2012/05/20/the-product-is-the-marketing</id>
+		<id>http:///the-product-is-the-marketing</id>
 		<content type="html">Instead of spending money on marketing *make use of* your audience.</content>
 	</entry>
 	

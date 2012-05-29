@@ -3,6 +3,7 @@ jQuery.noConflict();
 
 jQuery(document).ready(function(){
 
+
   // Shipping info
   jQuery("#article #buy #help span").click(function() {
     jQuery("#article #buy #help #shipping").slideToggle();
