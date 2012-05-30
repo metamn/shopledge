@@ -73,6 +73,25 @@ body {
 }
 
 
+.article3 ol, 
+.article .plus {
+  color: red;
+}
+.article3 .highlight .plus {
+  color: #222;
+}
+
+.article3 h3 {
+  background: #222;
+  color: white;
+}
+.article3 ul {
+  color: #222;
+}
+.article3 h4 {
+  border-bottom: 1px solid;
+}
+
 
 /* Links */
 

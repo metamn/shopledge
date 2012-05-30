@@ -4,6 +4,12 @@ jQuery.noConflict();
 jQuery(document).ready(function(){
 
 
+  // Article 3 navigation 
+  jQuery(".article3 h4, .article3 h3").click(function() {
+    jQuery(this).next().slideToggle();
+    jQuery(this).toggleClass('highlight');
+  });
+
   // Shipping info
   jQuery("#article #buy #help span").click(function() {
     jQuery("#article #buy #help #shipping").slideToggle();

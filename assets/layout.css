@@ -149,6 +149,30 @@ strong, blockquote em {
   margin: 2.5em 0;
 }
 
+.article3 ul {
+  list-style: none;
+  font-size: 2em;
+  margin-left: 1.25em;
+  display: none;
+}
+.article3 ul div {
+  font-size: smaller;
+  display: none;
+}
+.article3 h3 {
+  padding: 3% 1%;
+  cursor: pointer;
+}
+.article3 h4 {
+  padding: 0;
+  cursor: pointer;
+}
+.article .plus {
+  float: right;
+}
+
+
+
 
 
 
