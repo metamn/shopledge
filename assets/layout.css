@@ -149,6 +149,9 @@ strong, blockquote em {
   margin: 2.5em 0;
 }
 
+.article3 {
+  margin-bottom: 2.5em;
+}
 .article3 ul {
   list-style: none;
   font-size: 2em;
