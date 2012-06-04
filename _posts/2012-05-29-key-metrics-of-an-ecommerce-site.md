@@ -5,6 +5,7 @@ images:
   - title: Key Metrics Of An E-commerce Site
     url: article3.png
 excerpt: Four metrics. All of them to increase the Conversion Rate
+price: 0
 ---
 
 Like your campaign and product performance &mdash; 
@@ -141,14 +142,14 @@ to buy your products.
 To understand how your visitors act try imagine yourself how you
 act when using an online shop to buy something.
 
-#### 1
+### 1
 
 Probably the first thing you demand from a website is **speed**.
 If a page loads slow, in more seconds than you expect 
 you'll abandon immediately.
 
 
-#### 2
+### 2
 
 Once you've get the site loaded into your browser you'll try to realise
 if **this is the experience you are looking for**, or not.
@@ -229,7 +230,7 @@ Optimise these steps as they occur.
   <tr>
     <td class="highlight">Step</td>
     <td class="highlight">Expectation</td>
-    <td class="highlight">Depends on</td>
+    <td class="highlight">Depends On</td>
     <td class="highlight">Google Analytics Metric</td>
   </tr>
   </thead>
@@ -238,21 +239,21 @@ Optimise these steps as they occur.
   <tr>
     <td>1</td>
     <td>Speed</td>
-    <td>Servers and speed optimised design</td>
+    <td>Servers, speed optimised design and code</td>
     <td>Avg. Page Load Time (sec)</td>
   </tr>
   
   <tr>
     <td>2</td>
     <td>Good Experience</td>
-    <td>On design</td>
+    <td>Design, Copy</td>
     <td>Bounce and Exit Rate</td>
   </tr>  
   
   <tr>
     <td>3</td>
     <td>Add To Cart</td>
-    <td>Product presentation, Price</td>
+    <td><a href="{{ site.url }}/the-product-is-the-marketing/" title="The Product Is The Marketing">Product presentation</a>, Price</td>
     <td>Custom Goals</td>
   </tr>  
   
