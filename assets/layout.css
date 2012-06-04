@@ -355,6 +355,10 @@ strong, blockquote em {
 }
 
 
+#comments {
+  margin: 1.25em 0;
+  padding: 1.25em 0;
+}
 
 /* Footer
 */

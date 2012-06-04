@@ -158,7 +158,10 @@ a.text:hover {
   margin: 0 .625em;
 }
 
-
+#comments {
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+}
 
 
 /* Common
