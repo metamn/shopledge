@@ -359,6 +359,12 @@ strong, blockquote em {
   margin: 1.25em 0;
   padding: 1.25em 0;
 }
+#comments h3 {
+  font-size: smaller;
+}
+
+
+
 
 /* Footer
 */
