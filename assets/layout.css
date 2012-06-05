@@ -332,7 +332,7 @@ strong, blockquote em {
   width: auto;
 }
 #article #buy #cart {
-  margin-top: 2.5em;
+  margin: 2.5em 0;
 }
 #article #buy #cart form, #article #buy #cart #price {
   width: auto;

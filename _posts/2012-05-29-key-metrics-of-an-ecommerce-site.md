@@ -8,11 +8,11 @@ excerpt: Four metrics. All of them to increase the Conversion Rate
 price: 0
 ---
 
-Like your campaign and product performance &mdash; 
+Like your [campaign performance]({{ site.url }}/run-profitable-campaigns/ "Run Profitable Campaigns") 
 your online store must be measurable too.
 
-The site makes the sales &mdash; you must fine tune every aspect to keep it
-perform better.
+After all he site makes the sales &mdash; you must fine tune every aspect 
+of your webshop to perform better.
 
 ## Single Point Of Success, Single Point Of Failure
 
@@ -30,7 +30,7 @@ With:
 * A high conversion rate your energies spent on marketing and product
 creation are multiplied. 
 
-* A low conversion rate no matter how good your products are and how much 
+* Low conversion rate no matter how good your products are and how much 
 traffic you drive to your site &mdash; your sales will be modest.
 
 <table id="conversion-rate" class="desktop">
@@ -72,8 +72,7 @@ Put simply, **Conversion Rate** is the
 
 > willingness 
 
-of your visitors to become customers,
-to buy your products. 
+of your visitors to become customers.
 
 
 ## Understanding Willingness
@@ -139,8 +138,8 @@ to buy your products.
   </ol>
 </div>
 
-To understand how your visitors act try imagine yourself how you
-act when using an online shop to buy something.
+To understand how your visitors act remember how you do shop online.
+What makes you happy and what not.
 
 ### 1
 
@@ -151,11 +150,11 @@ you'll abandon immediately.
 
 ### 2
 
-Once you've get the site loaded into your browser you'll try to realise
-if **this is the experience you are looking for**, or not.
+Once you've got the site loaded into your browser you'll try to realise
+if this is **the experience you are looking for**, or not.
 
-Are there the products you want to buy? Are they presented well?
-Is the site looks good? Do you feel confident what you see?
+Are there interesting products? Are they presented well?
+Does the site looks good? Do you feel confident what you see?
 
 If all's well then you'll start looking to buy, otherwise you'll bounce away.
 
@@ -163,55 +162,49 @@ If all's well then you'll start looking to buy, otherwise you'll bounce away.
 ### 3
 
 Ok there's a product you might be interested.
-You'll add to cart only if you are sure this will be a good buy.
+You'll add to cart only if you are sure this will be a good deal.
 
 And what makes a **good deal?**
 
-1. The product is exactly what you are looking for
-2. It is presented weel, made it desirable, all details are clear and understandable
-3. The price is okay
+1. The product is exactly what you are looking for.
+2. It is presented well, made it desirable, all details are clear and understandable.
+3. The price is okay.
 
-In this case you'll probably add the product to cart.
+In this case you'll probably add the product to the cart.
 
 
 ### 4
 
-Once you have a product in the cart the next would be to checkout.
-This is *the most critical part* in your shopping experience.
-
-Why?
-
-Because you'll spend money.
+Once the product is in the cart the most critical part of your 
+shopping experience happens.
+You'll start thinking about spending money.
 
 And when you'll spend money for sure?
 
-1. When the product in your cart is exactly what you want.
+1. When you are re-assured the product in your cart is exactly what you want.
 
-2. The price is ok
+2. The price is really ok, and won't get better, can't be made better.
 
-3. The shipping, delivery is fine
+3. The payment, shipping, delivery is fine.
 
-4. The services you get after purchasing the product &mdash; return,
-support, care &mdash; are ok too.
+4. There won't be any problems with the purchased product. If yes there is
+a good support to handle it.
 
-And when you'll **abandon** the shopping at this very latest phase?
+When you'll **abandon** shopping?
 
-1. You've just put in the basket the product(s) to bookmark it, to
-remember you would like to buy it sometimes.
+1. You've put in the basket the product(s) just to bookmark it, to
+remember later.
 
-2. The product is okay, but you don't need it right now
+2. You don't really need it right now.
 
 3. You are not sure about the price, if you can buy it or not elsewhere at a
-better deal
+better deal.
 
-4. Something is wrong with the service, something unexpected happened:
+4. Something is wrong with the service, something unexpected happened: 
+there are hidden costs, the delivery is not what you would expect, 
+not sure if this is a good purchase for long term, etc.
 
-* there are hidden costs
-* the delivery is not what you would expect
-* not sure if this is a good purchase for long term
-* etc.
-
-## Putting All Together
+## Putting It All Together
 
 There are several factors influencing your visitors willingness to become
 customers.
@@ -220,10 +213,7 @@ As better you manage these factors as much your Conversion Rate &mdash;
 the single most important e-commerce metric &mdash; grows.
 
 It is important to model how your visitors think & interact with your site
-and measure every step they take.
-
-And remember, every visitor takes the same steps to become customer.
-Optimise these steps as they occur.
+and measure every step they make.
 
 <table id="key-metrics" class="desktop">
   <thead>
@@ -239,7 +229,7 @@ Optimise these steps as they occur.
   <tr>
     <td>1</td>
     <td>Speed</td>
-    <td>Servers, speed optimised design and code</td>
+    <td>Servers, Speed optimized design and code</td>
     <td>Avg. Page Load Time (sec)</td>
   </tr>
   
@@ -252,15 +242,15 @@ Optimise these steps as they occur.
   
   <tr>
     <td>3</td>
-    <td>Add To Cart</td>
+    <td>Shopping Fever</td>
     <td><a href="{{ site.url }}/the-product-is-the-marketing/" title="The Product Is The Marketing">Product presentation</a>, Price</td>
     <td>Custom Goals</td>
   </tr>  
   
   <tr>
     <td>4</td>
-    <td>Checkout</td>
-    <td>Trust, Incentives</td>
+    <td>Satisfaction</td>
+    <td>Trust, Incentives, Services</td>
     <td>Ecommerce Conversion Rate</td>
   </tr>  
   </tbody>

@@ -32,15 +32,15 @@ Finally ...
 
 ## Your Customers Are The Marketers
 
-When you build something with *high informational and emotional value* you manufacture
+When you build something with high informational and emotional value you manufacture
 *buzz and desire*.
 
 People will start talking about, will build their own *status* around your products.
 You'll use the power of the crowd to run your business. 
 **Crowd-sourcing** is the magic happening in this decade.
 
-We came to an era when people are taking control over their lives -- over
-everything they interact with -- so companies and products.
+We came to an era when people are taking control over their lives &mdash; over
+everything they interact with &mdash; like companies and products.
 And they do it voluntarily, for free, adding love and requesting only a 
 little attention as reward.
 
@@ -49,15 +49,21 @@ little attention as reward.
 ## Crowd-source Everything
 
 Few years ago I've written an article about 
-[Comunity Driven Web Shopping](http://clair.ro/blog/2009/08/18/community-driven-web-shopping/ "Comunity Driven Web Shopping")
+[Community Driven Web Shopping](http://clair.ro/blog/2009/08/18/community-driven-web-shopping/ "Comunity Driven Web Shopping")
 stating:
 
 > Following years will be about a shift in e-commerce. 
 > Now shop owners are presenting products to customers 
 > later customers will ask for products and services without entering a shop.
 
-In the latest [Econsultancy report](http://econsultancy.com/) about 
-digital trends and their impact on marketing we have a following summary from
+This is about crowd-sourcing the inventory items your shop will sale.
+You don't have to look after wholesale companies for products 
+but listen to people and they will tell you what they want to buy.
+
+There is a buzzword for that, called content marketing.
+
+In the latest [Econsultancy report](http://econsultancy.com/uk/reports/digital-trends-and-content-marketing) 
+about digital trends and their impact on marketing we have a following summary from
 [Seth Godin, the marketing god](http://www.sethgodin.com/sg/):
 
 > Content marketing is the only marketing left.
@@ -105,6 +111,13 @@ digital trends and their impact on marketing we have a following summary from
 </div>
 
 
+### In a content driven e-commerce company
 
+1. Your product is defined by the crowd. 
+2. You add some magic.
+3. And let them play with. 
 
+Market research, marketing and sales *all* crowd-sourced. 
+The only left is *content production*.
 
+&nbsp;
