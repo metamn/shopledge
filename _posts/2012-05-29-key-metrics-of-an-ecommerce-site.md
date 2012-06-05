@@ -11,7 +11,7 @@ price: 0
 Like your [campaign performance]({{ site.url }}/run-profitable-campaigns/ "Run Profitable Campaigns") 
 your online store must be measurable too.
 
-After all he site makes the sales &mdash; you must fine tune every aspect 
+After all the site makes the sales &mdash; you must fine tune every aspect 
 of your webshop to perform better.
 
 ## Single Point Of Success, Single Point Of Failure
