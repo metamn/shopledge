@@ -204,6 +204,20 @@ better deal.
 there are hidden costs, the delivery is not what you would expect, 
 not sure if this is a good purchase for long term, etc.
 
+### Cart Abandonment Rate
+
+<div id="infogr" class="article3a desktop">
+  <a title="View larger version of Cart Abandonment Rate" href="{{ site.images }}/article3-cart-abandonment-large.png">
+    <img title="Cart Abandonment Rate" src="{{ site.images }}/article3-cart-abandonment.png" />
+  </a>
+</div>
+
+<div id="infogr" class="article3a mobile">
+  <a title="View larger version of Cart Abandonment Rate" href="{{ site.images }}/article3-cart-abandonment.png">
+    <img title="Cart Abandonment Rate" src="{{ site.images }}/article3-cart-abandonment-mobile.jpg" />
+  </a>
+</div>
+
 ## Putting It All Together
 
 There are several factors influencing your visitors willingness to become
