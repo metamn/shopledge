@@ -154,7 +154,7 @@ Once you've got the site loaded into your browser you'll try to realise
 if this is **the experience you are looking for**, or not.
 
 Are there interesting products? Are they presented well?
-Does the site looks good? Do you feel confident what you see?
+Does the site looks good? Do you feel confident in what you see?
 
 If all's well then you'll start looking to buy, otherwise you'll bounce away.
 
