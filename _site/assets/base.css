@@ -325,6 +325,9 @@ blockquote {
 em {
   font-style: italic;
 }
+small {
+  font-size: smaller;
+}
 
 /* 
 ## Images, Thumbs ##

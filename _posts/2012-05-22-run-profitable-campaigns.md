@@ -207,6 +207,7 @@ stop the campaign to avoid more damage.
       <li>Advertising Fee</li>
     </ul>
   </div>
+  <div class="right"><small><em>Click the boxes above for more</em></small></div>
 </div>
 
 <div id="infogr" class="mobile article2 block">

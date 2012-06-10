@@ -77,6 +77,7 @@ of your visitors to become customers.
 
 ## Understanding Willingness
 
+
 <div id="infogr" class="article3 block">
 
   <ol>
@@ -136,6 +137,7 @@ of your visitors to become customers.
       </ul>
     </li>
   </ol>
+  <div class="right"><em>Click boxes above for more</em></div>
 </div>
 
 To understand how your visitors act remember how you do shop online.
