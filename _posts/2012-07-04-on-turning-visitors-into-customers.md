@@ -90,10 +90,9 @@ different visitor segments.
 
 
 <div id="infogr" class="article4a block">
-  <div id="d3"></div>
-  <script src="/assets/d3.v2.min.js" type="text/javascript"></script>
-  <script src="/assets/d3.article4.js" type="text/javascript"></script>
+  <div id="d3">&nbsp;</div>
 </div>
- 
+<script src="/assets/d3.v2.min.js" type="text/javascript"></script>
+<script src="/assets/d3.article4.js" type="text/javascript"></script>
 
  
