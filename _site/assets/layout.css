@@ -60,6 +60,31 @@ strong, blockquote em {
 */
 
 
+/* Turn visitors into customers */
+.article4 {
+  margin: 2.5em 0;
+}
+.article4 ul {
+  list-style: none;
+  width: 60%;
+  margin-left: 0;
+}
+.article4 ul li #arrow1 {
+  max-width: 25%;
+}
+.article4 ul li #text {
+  position: relative;
+  top: -5em;
+  font-size: larger;
+}
+.article4 ul li#id2 {
+  margin-left: 10%; 
+}
+.article4 ul li#id3 {
+  margin-left: 20%; 
+}
+
+
 /* The Product is the Marketing */
 
 .article1 {
@@ -118,6 +143,8 @@ strong, blockquote em {
 } 
 
 
+
+
 /* Run Profitable Campaigns */
 .article2 {
   font-size: larger;
@@ -134,6 +161,7 @@ strong, blockquote em {
 .article ul li.op {
   margin-left: 20%;
 }
+
 
 
 /* Key metrics of an ecommerce site */

@@ -40,12 +40,14 @@ body {
 #infogr {
   border-bottom: 2px solid;
 }
-.article1 .social-networks li {
+.article1 .social-networks li,
+.article4 h4 {
   background: #222;
   color: white;
   padding: 3% 1%;
 }
-.article1 #buzz {
+.article1 #buzz,
+.article4 ul li #text {
   background: white;
   padding: .312em;
 }
