@@ -1,0 +1,54 @@
+digraph G {
+
+	subgraph cluster_0 {
+	  color=olivedrab1;
+	  style=filled;
+	  
+		label = "It will buy";
+		addcart2 -> checkout [style="dotted"];
+		checkout -> rewards [style="dotted"];
+	}
+	
+	subgraph cluster_1 {
+	  color=khaki1;
+	  style=filled;
+	  
+		label = "Maybe it will buy";
+		labeldistance = 3.0;
+		
+		addcart -> nocheckout [style="dotted"];
+		nocheckout -> incentives [style="dotted"];
+	}
+	
+	subgraph cluster_2 {
+	  color=palevioletred1;
+	  style=filled;
+	  		
+		label = "Just looking around";
+		browsing -> noactions [style="dotted"];		
+		noactions -> services [style="dotted"];
+	}
+
+	
+	
+	start -> browsing [style="dotted"];
+	start -> addcart [style="dotted"];
+	start -> addcart2 [style="dotted"];
+	
+	services -> end [style="dotted"];
+	rewards -> end [style="dotted"];
+	incentives -> end [style="dotted"];
+	
+	browsing [label="Browsing a couple of products", shape="box", color="gray30", fontcolor="gray30"]	
+	noactions [label="No actions, just browsing", shape="box", color="gray30", fontcolor="gray30"]	
+	services [label="Tell about the shopping services", shape="box", color="gray30", fontcolor="gray30"]
+	addcart [label="Add to cart", shape="box", color="gray30", fontcolor="gray30"]
+	addcart2 [label="Add to cart", shape="box", color="gray30", fontcolor="gray30"]
+	nocheckout [label="No checkout", shape="box", color="gray30", fontcolor="gray30"]
+	checkout [label="Checkout", shape="box", color="gray30", fontcolor="gray30"]
+	rewards [label="Show rewards", shape="box", color="gray30", fontcolor="gray30"]
+  incentives [label="Show incentives", shape="box", color="gray30", fontcolor="gray30"]
+
+	start [label="Visitor", shape="Mdiamond"];	
+	end [label="Customer", shape="Mdiamond"];
+}

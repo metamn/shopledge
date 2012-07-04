@@ -2,8 +2,8 @@
 layout: article
 title: On Turning Visitors Into Customers
 images:
-  - title: Key Metrics Of An E-commerce Site
-    url: article3.png
+  - title: On Turning Visitors Into Customers
+    url: article4a.png
 excerpt: Every visitor is different. Treat them individually.
 price: 0
 ---
@@ -90,9 +90,7 @@ different visitor segments.
 
 
 <div id="infogr" class="article4a block">
-  <div id="d3">&nbsp;</div>
+  <img title="Responsive E-commerce" src="{{ site.images }}/article4a.png" />
 </div>
-<script src="/assets/d3.v2.min.js" type="text/javascript"></script>
-<script src="/assets/d3.article4.js" type="text/javascript"></script>
 
  
