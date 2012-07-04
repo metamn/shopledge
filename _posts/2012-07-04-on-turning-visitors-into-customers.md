@@ -18,7 +18,7 @@ by offering them a personalized experience.
 ## The Continuous Erosion Of The Conversion Rate
 
 In our experience conversion rate &mdash; turning visitors into customers
-&mdash; halves on every step they make until the final purchase.
+&mdash; halves on every step visitors make until the final purchase.
 
 <div id="infogr" class="article4 block">
   <ul>
@@ -50,16 +50,17 @@ individual behaviour.
 
 ## Real Time Visitor Analytics And Segmentation
 
-Currently there are no third party tools available to analyze 
-customer behaviour in real-time. Google Analytics, Mixpanel&co
-are offering post-mortem analytics on what happened on your site.
+Currently there are a few external tools available to analyze 
+customer behaviour in real-time. Big players like 
+Google Analytics, Mixpanel & co are offering *only* post-mortem analytics 
+on what happened on your site.
 
-Your e-commerce engine must be capable to track every interaction
+Why? Because your e-commerce engine must be capable to track every interaction
 every visitor does on your site, and respond accordingly,
 based on their clicks and current goals &mdash; the mindset
 they have right now visiting your site.
 
-This way you can identify:
+With behavioral tracking you can identify:
 
 * New or returning visitors
 * Visitors who are just looking around
@@ -73,21 +74,27 @@ Once identified they can be treated differently:
   * Subscribe to newsletter for promo codes and coupons 
   * Use a personalized product finder
   * Tell us when you are willing to buy and how much you are planning to spend
-  * etc.
+  * and more ...
 * Unsure visitors can be aided by additional incentives:
   * Compare prices and make sure this is the best deal
   * Add to wishlist to get sale prices
-  * etc.
+  * and more ...
   
 ## Responsive E-commerce
 
 Yes, like 
 [modern website design](http://johnpolacek.github.com/scrolldeck.js/decks/responsive/)
-adapting to different devices (smartphone,
-tablet, desktop monitor) in the same way your e-commerce site must adapt
-to different visitor segments.
+adapting to different devices &mdash; smartphone, tablet, desktop monitor 
+&mdash; in the same way your e-commerce site must adapt to 
+different visitor segments.
 
 
+<div id="infogr" class="article4a block">
+  <div id="d3">
+  </div>
+  <script src="/assets/d3.v2.min.js" type="text/javascript"></script>
+  <script src="/assets/d3.article4.js" type="text/javascript"></script>
+</div>
  
 
  

@@ -33,6 +33,9 @@ h3 + h4 {
 p + ul, p + ol {
   margin-top: 1.25em;
 }
+ul + p, ol + p {
+  margin-top: 2.5em;
+}
 
 img {
   max-width: 100%;
