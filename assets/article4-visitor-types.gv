@@ -1,0 +1,71 @@
+digraph G {
+
+	subgraph cluster_0 {
+	  color = olivedrab1;
+	  style = filled;
+	  
+		label = "How interacts with the site";
+		no_feedback -> share_comment -> gives_email -> use_services -> attempt_to_shop -> shopped -> returned -> giftplanner [style="dotted"];
+	}
+	
+	subgraph cluster_1 {
+	  color = khaki1;
+	  style = filled;
+	  
+		label = "Visitor Type";		
+		passive -> interactive -> contactable -> savvy -> unsure -> shopper -> returning -> subscriber [style="dotted"];
+	}
+	
+	subgraph cluster_2 {
+	  color = palevioletred1;
+	  style = filled;
+	  		
+		label = "How we deal with / Responsive E-commerce";
+		tell -> points -> one_click -> target1 -> target2 -> email1 -> email2 -> thanks [style="dotted"];
+	}
+
+  start [label="Visitor", shape="Mdiamond"];	
+	end [label="The Best Customer", shape="Mdiamond"];
+	
+	no_feedback [label="No feedback", shape="box", color="gray30", fontcolor="gray30"]	
+	passive [label="PASSIVE", shape="box", color="gray30", fontcolor="gray30"]	
+	tell [label="Showcase our services, incentives, values at every page", shape="box", color="gray30", fontcolor="gray30"]	
+	
+	share_comment [label="Share, comment", shape="box", color="gray30", fontcolor="gray30"]	
+	interactive [label="INTERACTIVE", shape="box", color="gray30", fontcolor="gray30"]	
+	points [label="Display the Smuff points earned with every interaction and how it can be converted to buying a product", shape="box", color="gray30", fontcolor="gray30"]	
+	
+  gives_email [label="Provides e-mail", shape="box", color="gray30", fontcolor="gray30"]	
+	contactable [label="CONTACTABLE", shape="box", color="gray30", fontcolor="gray30"]		
+  one_click [label="'1-Click Shopping' instead of 'Add to Cart'", shape="box", color="gray30", fontcolor="gray30"]	
+	
+	use_services [label="Using services to get lower prices", shape="box", color="gray30", fontcolor="gray30"]	
+	savvy [label="SAVVY", shape="box", color="gray30", fontcolor="gray30"]		
+  target1 [label="Do a profile analysis and offer a sale price on all products he/she might like it", shape="box", color="gray30", fontcolor="gray30"]	
+
+  attempt_to_shop [label="Has at least one attempt to shop (abandoned cart, wishlist not saved, etc.", shape="box", color="gray30", fontcolor="gray30"]	
+	unsure [label="UNSURE", shape="box", color="gray30", fontcolor="gray30"]		
+  target2 [label="Next time the visitor returns offer sale on the abandoned cart, wishlist items", shape="box", color="gray30", fontcolor="gray30"]	
+
+  shopped [label="Has shopped", shape="box", color="gray30", fontcolor="gray30"]	
+	shopper [label="SHOPPER", shape="box", color="gray30", fontcolor="gray30"]		
+  email1 [label="Send an email after a while, and offer personalized products on sale", shape="box", color="gray30", fontcolor="gray30"]	  
+
+  returned [label="Returning shopper", shape="box", color="gray30", fontcolor="gray30"]	
+	returning [label="RETURNING", shape="box", color="gray30", fontcolor="gray30"]		
+  email2 [label="Urge to create a user account to get more", shape="box", color="gray30", fontcolor="gray30"]	
+	
+  giftplanner [label="Use giftplanner", shape="box", color="gray30", fontcolor="gray30"]	
+	subscriber [label="SUBSCRIBER", shape="box", color="gray30", fontcolor="gray30"]		
+	thanks [label="Periodically thanks for beeing loyal, share little secrets with", shape="box", color="gray30", fontcolor="gray30"]	
+	
+	
+	start -> no_feedback [style="dotted"];
+	start -> passive [style="dotted"];
+	start -> tell [style="dotted"];
+	
+	
+	giftplanner -> end [style="dotted"];
+	subscriber -> end [style="dotted"];
+	thanks -> end [style="dotted"];
+}

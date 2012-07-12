@@ -40,7 +40,7 @@ digraph G {
 	incentives -> end [style="dotted"];
 	
 	browsing [label="Browsing a couple of products", shape="box", color="gray30", fontcolor="gray30"]	
-	noactions [label="No actions, just browsing", shape="box", color="gray30", fontcolor="gray30"]	
+	noactions [label="Still no actions just browsing", shape="box", color="gray30", fontcolor="gray30"]	
 	services [label="Tell about the shopping services", shape="box", color="gray30", fontcolor="gray30"]
 	addcart [label="Add to cart", shape="box", color="gray30", fontcolor="gray30"]
 	addcart2 [label="Add to cart", shape="box", color="gray30", fontcolor="gray30"]
