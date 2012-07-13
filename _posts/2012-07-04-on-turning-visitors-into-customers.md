@@ -93,4 +93,12 @@ different visitor segments.
   <img title="Responsive E-commerce" src="{{ site.images }}/article4a.png" />
 </div>
 
+Or put it more broadly:
+
+<div id="infogr" class="article4b block">
+  <a href="http://db.tt/3I5f08tZ" title="View larger image">
+    <img title="Responsive E-commerce" src="{{ site.images }}/article4-visitor-types.png" />
+  </a>   
+</div>
+
  
